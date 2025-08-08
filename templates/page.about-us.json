@@ -1,0 +1,410 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "image_with_text_eUPjXL": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4cyy9x": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_8CQqkb": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_MtTdwA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"The Milk Fairy was born from a moment of clarity—or, more accurately, a meltdown over melting milk. Like many mums, we faced the challenges of breastfeeding while managing frozen breast milk, whether for travel, moving house, or simply the demands of everyday life.\"<br/><br/></p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4cyy9x",
+        "heading_8CQqkb",
+        "text_MtTdwA"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "#000000",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/milk_fairy_pink_scrubs_cleaning_facility_equipment_for_safety.jpg",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_banner_yLePHy": {
+      "type": "image-banner",
+      "blocks": {
+        "text_yefEnD": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_yefEnD"
+      ],
+      "settings": {
+        "heading": "The Milk Fairy isn’t just a business — it’s a movement determined to redefine how women experience motherhood.",
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 600,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/IMG_2921.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "separator_64nV8j": {
+      "type": "separator",
+      "settings": {
+        "heading": "",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_iG6Pp8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8Ck4h4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_nUBNbQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/><strong>As parents, we understand the juggle—balancing modern life with the beautiful yet demanding journey of breastfeeding and milk storage. We saw the gap: parents needed more than advice. They needed real, thoughtful tools designed for real life.<br/><br/></strong></p><p>That’s why we created <em>The Milk Fairy</em>—a movement where innovation meets heart. From our breast milk freeze-drying service to portable milk warmers, every product is designed to honour the magic of breast milk while offering freedom, flexibility, and peace of mind.</p><p>Our mission is simple: to ease the load, celebrate the effort, and bring a little magic to every family’s feeding journey—because no parent should have to choose between nourishment and convenience.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8Ck4h4",
+        "text_nUBNbQ"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#fff7e2",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_t4EdUz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gJVd7B": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're here to make a difference.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_rpYjYx": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/><strong>The Milk Fairy was born in 2023 from a deep desire to transform the way parents experience feeding and breast milk care.<br/><br/></strong></p><p>Rooted in innovation, practicality, and heartfelt support, we set out to offer real solutions, share valuable education, and build a connected community for modern mothers navigating the feeding journey.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gJVd7B",
+        "text_rpYjYx"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#fff7e2",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_WeKw83": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VJiWpJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "How We're Changing the Way Mothers Are Supported",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_3FQh9h": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>At The Milk Fairy, we’re redefining support for modern motherhood — not just with products, but through connection, education, and community.</p><p><br/>We host both in-person and virtual events designed to educate, empower, and uplift mums at every stage of their journey. From newborn feeding tips to navigating the emotional load, our sessions create space for real conversations and real solutions. <br/><br/>And through our unique freeze-drying service, we’re helping lighten the physical and mental load — giving mums more freedom, flexibility, and peace of mind when it comes to feeding their little ones.</p><p>Because when mothers are supported, they can truly thrive. And that’s the heart of everything we do.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VJiWpJ",
+        "text_3FQh9h"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#fff7e2",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "button_NinALj": {
+      "type": "button",
+      "settings": {
+        "button_select": "primary",
+        "button_horizontal_position": "center",
+        "button_label": "Join our movement",
+        "button_link": "https://themilkfairyaustralia.myflodesk.com/tc35y3bvig",
+        "margin-top": 20,
+        "margin-bottom": 20,
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multicolumn_wiLb8p": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4NMqx8": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Leo, Arabella & London: Our why.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/JESS_20.png"
+          }
+        },
+        "column_YxraVd": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Jess & Leo: Always feeding on the go.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/3_7046e349-79d3-4762-80e0-1b88ef53320c.png"
+          }
+        },
+        "column_xejjdr": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Tiana & London: Car feeds.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/1_8159a420-4e52-4ab6-8094-b59192a1a79d.png"
+          }
+        },
+        "column_BmiPkp": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Chris & Jess: 1995</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/2_17924ac0-0331-4942-a191-62deae51acdd.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_4NMqx8",
+        "column_YxraVd",
+        "column_xejjdr",
+        "column_BmiPkp"
+      ],
+      "settings": {
+        "heading": "",
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#ffffff",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_banner_bd4dki": {
+      "type": "image-banner",
+      "blocks": {
+        "text_DmYYxK": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_DmYYxK"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/mother_child_bond_the_milk_fairy_happy_healthy_baby_freeze_dried_breast_milk_breast_feeding.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_H7URCf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hEm6NE": {
+          "type": "heading",
+          "settings": {
+            "heading": "For Mums, By Mums.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_hEm6NE"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "featured_navigation_hNYTCQ": {
+      "type": "featured-navigation",
+      "settings": {
+        "heading": "",
+        "menu": "main-menu",
+        "desktop_placement": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_eUPjXL",
+    "image_banner_yLePHy",
+    "separator_64nV8j",
+    "rich_text_iG6Pp8",
+    "rich_text_t4EdUz",
+    "rich_text_WeKw83",
+    "button_NinALj",
+    "multicolumn_wiLb8p",
+    "image_banner_bd4dki",
+    "rich_text_H7URCf",
+    "featured_navigation_hNYTCQ"
+  ]
+}

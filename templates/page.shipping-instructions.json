@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_Qp4mBK": {
+      "type": "image-banner",
+      "blocks": {
+        "subheading_eJpfjE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_KLW7q7": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_GzgwhB": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eJpfjE",
+        "heading_KLW7q7",
+        "text_GzgwhB"
+      ],
+      "settings": {
+        "heading": "Shipping your frozen breast milk to The Milk Fairy HQ",
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/Copy_of_Untitled_3.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 0,
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "#ffffff",
+        "color-overlay-opacity": 0,
+        "margin-top": 36,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_CLBdYN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_PyJz87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Before you send off your precious milk, please take a moment to read through this section carefully. It’s here to guide you through our shipping process step by step, so everything arrives safely and smoothly. <br/><br/>We want this to be as stress-free and seamless as possible for you – because you've got enough on your plate, Mama. 💛</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_PyJz87"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "features_banner_yhyXJR": {
+      "type": "features-banner",
+      "blocks": {
+        "image_39whX7": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/fridge-travel-with-ease-the-milk-fairy-freeze-dried-breast-milk.png",
+            "select_icon": "bag",
+            "heading": "Prepare",
+            "text": "<p>When your kit arrives, start by placing the ice packs in the freezer. Freeze them for at least 48 hours before your scheduled collection date to ensure optimal cooling during transport.</p>"
+          }
+        },
+        "image_UcEDtR": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/purchase-breast-milk-kit-book-collection-milk-fairy-large.png",
+            "select_icon": "bag",
+            "heading": "Organise",
+            "text": "<p>Make sure your collection date is set. Be available for the collection, and ensure your GPS tracker is connected to your iPhone in advance for smooth coordination.</p>"
+          }
+        },
+        "image_RCtjgy": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/pack-frozen-breast-milk-for-collection-milk-fairy.png",
+            "select_icon": "bag",
+            "heading": "Package",
+            "text": "<p>On the morning of your collection, carefully package your frozen breast milk into the cooler provided. Watch the video below for detailed packaging instructions. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_39whX7",
+        "image_UcEDtR",
+        "image_RCtjgy"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "background_video_FFqzQa": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {}
+    },
+    "features_banner_PDUpaB": {
+      "type": "features-banner",
+      "blocks": {
+        "image_n34AeU": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Delivery-time-930-am-130-pm-the-milk-fairy-freeze-dried-breast-milk.png",
+            "select_icon": "bag",
+            "heading": "Courier arrival window",
+            "text": "<p>Our courier is scheduled to arrive between 9:30 am and 1:30 pm on your collection date. Please ensure someone is home during this time. Occasionally, delays or early arrivals may occur, so we recommend being prepared for slight variations in the timeframe.</p>"
+          }
+        },
+        "image_LnbRCP": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/ice-packs-in-freezer-48-hrs-before-collection.png",
+            "select_icon": "bag",
+            "heading": "Ice pack instructions",
+            "text": "<p>Using the right number of ice packs is crucial to keep your breast milk frozen during transport. 2L Kits need 3 ice packs, 4L Kits need 2, and Silver 8L Kits maintain temperature without ice packs. These guidelines ensure your milk stays frozen during transit.</p>"
+          }
+        },
+        "image_Y6H3yB": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/scales-for-weighing-breast-milk-to-send-to-the-milk-fairy-for-freeze-drying.png",
+            "select_icon": "bag",
+            "heading": "Send correct amount",
+            "text": "<p>Ensure you only send the amount of frozen breast milk matching your kit size (e.g., 2L or 4L). Sending more than the ordered size will incur a charge for every 100g over. Weighing your milk is the best way to check. If it fits with the provided ice packs and you're okay with the extra charge, you’re welcome to send it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_n34AeU",
+        "image_LnbRCP",
+        "image_Y6H3yB"
+      ],
+      "settings": {
+        "heading": "Some more points to note:",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "shoppable_video_xDckdz": {
+      "type": "shoppable-video",
+      "blocks": {
+        "product_iXHAfa": {
+          "type": "product",
+          "settings": {
+            "start_second": 1,
+            "featured_product": "breast-milk-freeze-drying-service-shipping-kit-send-my-milk"
+          }
+        }
+      },
+      "block_order": [
+        "product_iXHAfa"
+      ],
+      "name": "t:sections.shoppable-video.name",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "quick-add-enabled": false,
+        "rewind-enabled": false,
+        "hide-brand-name": false,
+        "video_hosted": "shopify://files/videos/audiofairyfinal.mov",
+        "desktop_fixed_height": 600,
+        "mobile_fixed_height": 480,
+        "enable_full_screen_mode": false,
+        "color-body-heading": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_ydfdQi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XYFLyg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need some help?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_UKqCHa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Got questions or need a little extra guidance? We're right here, Mama. Don’t hesitate to reach out — whether it’s a quick check-in or you’re feeling a little unsure, we’re always happy to help however we can. We are just one text away. 💛</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_TxLQQx": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Contact us",
+            "button_link": "shopify://pages/contact",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XYFLyg",
+        "text_UKqCHa",
+        "button_TxLQQx"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "image_banner_Qp4mBK",
+    "rich_text_CLBdYN",
+    "main",
+    "features_banner_yhyXJR",
+    "background_video_FFqzQa",
+    "features_banner_PDUpaB",
+    "shoppable_video_xDckdz",
+    "rich_text_ydfdQi"
+  ]
+}

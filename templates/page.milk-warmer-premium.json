@@ -1,0 +1,449 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "🍼 FOR EXHAUSTED MUMS WHO NEED SLEEP"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "What If You Never Had to Hear Your Baby Cry While Waiting for Milk Again?",
+            "size_heading": 120,
+            "size_heading_mobile": 100
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>It's 2:47am.</strong> Your baby is screaming. You're stumbling in the dark, trying to warm milk while your heart breaks with every cry.<br/><br/>In 60 seconds, that could all change. <strong>Complete silence. Perfect temperature. Happy baby. More sleep.</strong><br/><br/>5,237 Aussie mums have already discovered this secret to peaceful nights.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Yes, I Want Peaceful Nights → Save $30 Today",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["subheading", "heading", "text", "button"],
+      "settings": {
+        "image": "shopify://shop_images/IMG_3163.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "trust_bar": {
+      "type": "multicolumn",
+      "blocks": {
+        "trust1": {
+          "type": "column",
+          "settings": {
+            "title": "⚡ 60 Second Promise",
+            "text": "<p>Fastest milk warmer in Australia</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "trust2": {
+          "type": "column",
+          "settings": {
+            "title": "🤫 Hospital Quiet",
+            "text": "<p>Won't wake baby or partner</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "trust3": {
+          "type": "column",
+          "settings": {
+            "title": "💝 30 Nights Risk-Free",
+            "text": "<p>Love it or money back</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "trust4": {
+          "type": "column",
+          "settings": {
+            "title": "🚚 Ships Today",
+            "text": "<p>Order before 2pm AEST</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["trust1", "trust2", "trust3", "trust4"],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "problem_story": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"I Was at My Breaking Point...\"",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>\"Night three of no sleep. My daughter crying. Me crying. My partner pretending to sleep.<br/><br/>I'd tried everything - the tommee tippee warmer that takes 7 minutes (might as well be 7 hours when baby's screaming). The microwave (hello, hot spots and guilt). The bowl of hot water method (never the right temp).<br/><br/><strong>Then I discovered Magic Warmmy.</strong><br/><br/>That first night, I pressed one button. 60 seconds later, perfect milk. No crying. We both went back to sleep in minutes.<br/><br/>I actually cried happy tears. This little device gave me my sanity back.\"</em><br/><br/><strong>- Sarah Mitchell, Mum of 2, Brisbane</strong><br/>Verified Buyer ⭐⭐⭐⭐⭐</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "product_showcase": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Magic Warmmy: Your 2AM Superhero",
+            "size_heading": 100
+          }
+        },
+        "features": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>✅ 60-SECOND WARMING</strong> - From fridge-cold to perfect 37°C body temperature<br/><br/><strong>✅ COMPLETELY SILENT</strong> - No beeping, buzzing, or bubbling to wake anyone<br/><br/><strong>✅ WORKS ANYWHERE</strong> - USB rechargeable for car, plane, or grandma's house<br/><br/><strong>✅ PRESERVES NUTRIENTS</strong> - Gentle warming protects precious antibodies<br/><br/><strong>✅ FITS ALL BOTTLES</strong> - Works with every major brand + milk bags<br/><br/><strong>Only $199</strong> (Usually $229) <strong>Save $30 Today!</strong></p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Add to Cart - Get It By Friday",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle"
+          }
+        }
+      },
+      "block_order": ["heading", "features", "button"],
+      "settings": {
+        "image": "shopify://shop_images/IMG_3163.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "comparison": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Smart Mums Choose Magic Warmmy",
+            "heading_size": "h1"
+          }
+        },
+        "comparison_table": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>⚡ Magic Warmmy vs Others:</strong><br/><br/>✅ <strong>Warming Time:</strong> 60 seconds (vs 5-7 minutes)<br/>✅ <strong>Silent Operation:</strong> Yes (vs loud beeping)<br/>✅ <strong>Portable:</strong> USB powered anywhere (vs plug only)<br/>✅ <strong>Perfect Temp:</strong> Every time (vs hit or miss)<br/>✅ <strong>Preserves Nutrients:</strong> Yes (vs microwave damage)<br/>✅ <strong>Night Ready:</strong> Bedside friendly (vs kitchen only)<br/>✅ <strong>Price:</strong> $199 - Worth every cent for your sleep!</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "comparison_table"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "testimonials": {
+      "type": "multicolumn",
+      "blocks": {
+        "review1": {
+          "type": "column",
+          "settings": {
+            "title": "Jessica T. - Sydney",
+            "text": "<p>⭐⭐⭐⭐⭐<br/><strong>\"Life changing. Seriously.\"</strong><br/>\"I was skeptical but desperate. First night using it, my son went back to sleep immediately after feeding. No more 45-minute crying sessions. Worth 10x the price.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "review2": {
+          "type": "column",
+          "settings": {
+            "title": "Emma K. - Melbourne",
+            "text": "<p>⭐⭐⭐⭐⭐<br/><strong>\"Saved my marriage\"</strong><br/>\"No more arguments at 3am about whose turn it is. It's so quick and quiet, we actually don't mind getting up anymore. Game changer.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "review3": {
+          "type": "column",
+          "settings": {
+            "title": "Rachel C. - Perth",
+            "text": "<p>⭐⭐⭐⭐⭐<br/><strong>\"Perfect for working mums\"</strong><br/>\"I express at work, store in the fridge, and warm it perfectly at daycare pickup. Works in the car! No more screaming drives home.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["review1", "review2", "review3"],
+      "settings": {
+        "title": "Join 5,237 Well-Rested Aussie Mums",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "how_it_works": {
+      "type": "multicolumn",
+      "blocks": {
+        "step1": {
+          "type": "column",
+          "settings": {
+            "title": "Step 1: Pour",
+            "text": "<p>Add cold breast milk or formula straight from the fridge. No prep needed.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step2": {
+          "type": "column",
+          "settings": {
+            "title": "Step 2: Press",
+            "text": "<p>One button. That's it. No settings, no confusion, no noise.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step3": {
+          "type": "column",
+          "settings": {
+            "title": "Step 3: Peace",
+            "text": "<p>60 seconds later, perfect 37°C milk. Baby feeds happily. Everyone sleeps.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["step1", "step2", "step3"],
+      "settings": {
+        "title": "So Simple, You Can Do It With Your Eyes Closed",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Yes, I Want This Simplicity →",
+        "button_link": "/products/milk-fairy-portable-milk-warmer-bottle",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "urgency": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "⏰ Special Offer Ends Tonight",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Save $30 + FREE Express Shipping</strong><br/>Regular Price: $229 | Today Only: $199<br/><br/>🔥 <strong>147 mums bought this in the last 24 hours</strong><br/>📦 Only 23 left in stock for immediate shipping<br/>🚚 Order in the next 2 hours for Friday delivery</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Claim My $30 Discount Now",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "faq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Questions? We've Got You Covered",
+            "heading_size": "h1"
+          }
+        },
+        "questions": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: Does it really warm in 60 seconds?</strong><br/>A: Yes! From fridge temperature (4°C) to perfect body temperature (37°C) in exactly 60 seconds. Frozen milk takes 3-4 minutes.<br/><br/><strong>Q: Is it actually silent?</strong><br/>A: Completely. No beeping, no humming, nothing. Your partner won't even know you're up.<br/><br/><strong>Q: What if it doesn't work for me?</strong><br/>A: 30-night money-back guarantee. Try it for a full month. If you're not sleeping better, we'll refund every cent.<br/><br/><strong>Q: How long does the battery last?</strong><br/>A: One charge lasts 12+ warmings. Charges via USB in 2 hours. Most mums charge it weekly.<br/><br/><strong>Q: Does it work with all bottles?</strong><br/>A: Yes! Fits Tommee Tippee, Avent, Dr Brown's, MAM, Medela, and more. Even works with milk storage bags.</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "questions"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "guarantee": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Promise to Exhausted Mums",
+            "size_heading": 100
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know you're skeptical. You've been burned by baby products that promise the world and deliver disappointment.<br/><br/><strong>That's why we offer:</strong><br/>✅ 30-Night Trial - Use it for a full month<br/>✅ Money Back Guarantee - No questions asked<br/>✅ 12-Month Warranty - We stand behind quality<br/>✅ Aussie Support - Real mums who get it<br/><br/>You have nothing to lose except sleepless nights.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Risk-Free for 30 Nights",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle"
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "final_cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tonight Could Be Different",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Imagine waking up tomorrow actually feeling rested.<br/>Your baby fed quickly and went straight back to sleep.<br/>No kitchen trips. No crying. No stress.<br/><br/><strong>5,237 Aussie mums are already living this reality.</strong><br/><br/>Join them tonight.<br/><br/>🛡️ 30-Day Money Back Guarantee | 🚚 Free Express Shipping | ⭐ 5-Star Aussie Support</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Yes! I Want Better Nights - Add to Cart",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "trust_bar",
+    "problem_story",
+    "product_showcase",
+    "comparison",
+    "testimonials",
+    "how_it_works",
+    "urgency",
+    "faq",
+    "guarantee",
+    "final_cta"
+  ]
+}

@@ -1,0 +1,375 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "settings": {
+        "full-width-enabled": true,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 8,
+        "margin-bottom": 8
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "brand": "Milk Fairy Warmer + Thermos",
+            "size_text": 210,
+            "size_text_mobile": 200
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_included": true,
+            "size_text": 130,
+            "size_text_mobile": 120
+          }
+        },
+        "afterpay_on_site_messaging_payments_messaging_6GQ7Ee": {
+          "type": "shopify://apps/afterpay-on-site-messaging/blocks/payments-messaging/f45a5524-d177-4475-bf59-281efd2215a8",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "md",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true,
+            "product": "{{product}}"
+          }
+        },
+        "text_xmbXQC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "<p>★★★★★ “This has been a game changer. It’s so easy to use. The bottle is warm within a few mins, I absolutely love it. Highly recommend!!!</p>",
+            "page": ""
+          }
+        },
+        "bulletpoints_U4hc3E": {
+          "type": "bulletpoints",
+          "disabled": true,
+          "settings": {
+            "metafield": "",
+            "default_text": "2025 Model – Warms Milk in 1-3 Minutes\nUse anytime, anywhere\nSelf Sterilising Stainless Steel\nBonus: Bottle brush & organic cleaner for quick, battery-free cleaning on the go."
+          }
+        },
+        "separator_RrKQ4A": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_swatch_names": "",
+            "variant_picture_swatch_names": "",
+            "dropdown_swatch_names": "",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 16
+          }
+        },
+        "inventory_JWQnXt": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 42,
+            "show_inventory_quantity": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "show_qty_selector": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_open": true,
+            "icon": "none"
+          }
+        },
+        "bulletpoints_taXYMY": {
+          "type": "bulletpoints",
+          "disabled": true,
+          "settings": {
+            "metafield": "",
+            "default_text": "Standard Shipping included.\nSeamless Integration: Works perfectly with our freeze-dried milk sachets.\nAustralian-Made Quality: Designed and tested for local mums' needs."
+          }
+        },
+        "share_buttons_Ct9CXx": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+            "heading": "Share",
+            "social_facebook_link": true,
+            "social_twitter_link": true,
+            "social_pinterest_link": true,
+            "mail_link": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
+        "price",
+        "afterpay_on_site_messaging_payments_messaging_6GQ7Ee",
+        "text_xmbXQC",
+        "bulletpoints_U4hc3E",
+        "separator_RrKQ4A",
+        "variant_picker",
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
+        "inventory_JWQnXt",
+        "buy_buttons",
+        "description",
+        "bulletpoints_taXYMY",
+        "share_buttons_Ct9CXx"
+      ],
+      "settings": {
+        "full-width-enabled": true,
+        "desktop-media-size": "normal",
+        "desktop-layout": "carousel-horizontal",
+        "desktop-image-ratio": "square",
+        "enable_video_looping": true,
+        "enable-image-zoom": true,
+        "mobile-image": "small",
+        "margin-top": 12,
+        "margin-bottom": 0
+      }
+    },
+    "collapsible_menu_FUEDVw": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_ywcCBd": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "What's included?",
+            "content": "<ul><li><strong>Portable Milk Warmer & Thermos</strong> – Fill with sterilised water or breast milk, set your desired temperature on the built-in display, and enjoy perfectly warmed feeds in just 1–3 minutes.</li><li><strong>2L Freeze-Drying Kit</strong> – We send you everything you need to safely ship your frozen milk to our certified facility. Your milk is then gently freeze-dried in its own dedicated chamber, sealed into shelf-stable sachets, and delivered back to your door — no freezer needed.</li></ul>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_RYyaaL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to clean",
+            "content": "<p>To clean your <strong>Magic Warmie+</strong>, simply add warm water to loosen any residue, give it a quick rinse, then pour in a splash of <strong>3% food-grade hydrogen peroxide</strong>. Scrub thoroughly using the included bottle brush, let it sit for 1–2 minutes to naturally disinfect, then rinse well with clean water and leave to air dry with the lid off.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_EM3d9p": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Benefits",
+            "content": "<p><strong>Say goodbye to the microwave. And the mess.</strong></p><p>No more lugging kettles. No more bulky plug-in warmers.<br/><br/>Just warm, ready-to-go bottles — anytime, anywhere.</p><p>The <strong>Milk Fairy Portable Warmer + Thermos</strong> was designed to make feeding simpler, faster, and safer — whether you're at the park, on a plane, or up for a 3am feed.</p><p><strong>Here’s why mums are making the switch:</strong></p><p><strong>Feeds in 90 seconds</strong> — because babies don’t wait.<br/><br/><strong>Precise temperature control</strong> — warms water or milk to 37–55°C without overheating.<br/><br/><strong>Protects nutrients</strong> in breast milk and formula — no boiling, no microwave hot spots.<br/><br/><strong>Portable + lightweight</strong> — fits in your nappy bag, no cords or bulky gear needed.<br/><br/><strong>Self-sterilising</strong> — one press of a button keeps things clean.<br/><br/><strong>Long battery life</strong> — up to 24 hours on thermos mode + USB-C fast charging.</p><p>Whether you're using freeze-dried breast milk, fresh milk, or formula — this is the only warmer you'll ever need.</p><p><strong>Bonus:</strong> Each warmer comes with a <strong>bottle brush + 100ml of 3% food-grade hydrogen peroxide</strong> to make on-the-go cleaning easy. See FAQs for how.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_Nx3KWw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p>100ml 3% Food Grade Hydrogen Peroxide</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_jMjBB6": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "How to make a bottle",
+            "content": "<p>Watch It In Action<br/><a href=\"https://www.instagram.com/p/DJsyX-bTe1a/\" target=\"_blank\">Tap here to view the video on Instagram</a><br/>  </p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_3ndGMU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "content": "<p><strong>Shipping not included.</strong></p><p>Want it faster? <strong>FedEx</strong> <strong>Overnight</strong> <strong>Express next-day shipping</strong> available at checkout.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_ywcCBd",
+        "collapsible_tab_RYyaaL",
+        "collapsible_tab_EM3d9p",
+        "collapsible_tab_Nx3KWw",
+        "collapsible_tab_jMjBB6",
+        "collapsible_tab_3ndGMU"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "button_hyigXH": {
+      "type": "button",
+      "name": "t:sections.button.presets.name",
+      "settings": {
+        "button_select": "primary",
+        "button_horizontal_position": "center",
+        "button_label": "learn more",
+        "button_link": "shopify://pages/milkfairy-breastmilk-warmer-and-thermos",
+        "margin-top": 20,
+        "margin-bottom": 20,
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "separator_BiGCmi": {
+      "type": "separator",
+      "settings": {
+        "heading": "",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "17365694325a6ca34f": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_PQ3Vh3": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_PQ3Vh3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "newsletter_pEcrBa": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_mLFMeW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_d8VNPK": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_gTPAyG": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mLFMeW",
+        "paragraph_d8VNPK",
+        "email_form_gTPAyG"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    },
+    "1749444731049a00f3": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "collapsible_menu_FUEDVw",
+    "button_hyigXH",
+    "separator_BiGCmi",
+    "17365694325a6ca34f",
+    "newsletter_pEcrBa",
+    "1749444731049a00f3"
+  ]
+}

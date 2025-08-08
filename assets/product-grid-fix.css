@@ -1,0 +1,86 @@
+/**
+ * Product Grid Centering Fix
+ * Centers 2 products when expecting 3
+ */
+
+/* Main product grid container */
+.wt-grid__container,
+.grid__container,
+.product-grid {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  gap: 2rem;
+}
+
+/* For grids with exactly 2 items */
+.wt-grid__container:has(> :nth-child(2)):not(:has(> :nth-child(3))),
+.grid__container:has(> :nth-child(2)):not(:has(> :nth-child(3))),
+.product-grid:has(> :nth-child(2)):not(:has(> :nth-child(3))) {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Product cards when only 2 */
+.wt-grid__container:has(> :nth-child(2)):not(:has(> :nth-child(3))) > .wt-grid__item,
+.grid__container:has(> :nth-child(2)):not(:has(> :nth-child(3))) > .grid__item,
+.product-grid:has(> :nth-child(2)):not(:has(> :nth-child(3))) > * {
+  flex: 0 1 calc(50% - 1rem);
+  max-width: 400px;
+}
+
+/* Featured collection specific */
+#shopify-section-featured_collection_DWHdPj .wt-grid__container {
+  justify-content: center !important;
+}
+
+/* Best sellers section */
+.featured-collection .wt-grid__container,
+[id*="featured_collection"] .wt-grid__container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+/* Responsive adjustments */
+@media screen and (min-width: 769px) {
+  /* Desktop: side by side */
+  .wt-grid__container > .wt-grid__item--span-4,
+  .grid__container > .grid__item--span-4 {
+    flex: 0 1 calc(50% - 1rem);
+    max-width: 400px;
+  }
+  
+  /* Hide third empty slot */
+  .wt-grid__container > .wt-grid__item--span-4:nth-child(3):empty,
+  .grid__container > .grid__item--span-4:nth-child(3):empty {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile: centered stack */
+  .wt-grid__container,
+  .grid__container,
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wt-grid__container > .wt-grid__item,
+  .grid__container > .grid__item,
+  .product-grid > * {
+    width: 90%;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Remove any grid-template that might interfere */
+.wt-grid__container,
+.grid__container {
+  grid-template-columns: unset !important;
+  display: flex !important;
+}

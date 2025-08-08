@@ -1,0 +1,165 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "separator_DPWcmn": {
+      "type": "separator",
+      "settings": {
+        "heading": "",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "collapsible_menu_EUJVwm": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_YV6F8b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Freeze-Drying as the Most Effective Techniques in Maintaining Biological Values and Microbiological Safety of Donor Milk",
+            "content": "<p>Human milk banks have a pivotal role in provide optimal food for those infants who are not fully breastfeed, by allowing human milk from donors to be collected, processed and appropriately distributed. Donor human milk (DHM) is usually preserved by Holder pasteurization, considered to be the gold standard to ensure the microbiology safety and nutritional value of milk. However, as stated by the European Milk Banking Association (EMBA) there is a need to implement the improvement of the operating procedure of human milk banks including preserving and storing techniques. <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7926441/\" title=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7926441/\">See more here</a></p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_hzPxUq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Human Milk Bactericidal Properties: Effect of Lyophilization and Relation to Maternal Factors and Milk Components",
+            "content": "<p>This research evaluated the effectiveness of various breast milk storage methods, focusing on freeze-drying (lyophilisation) and freezing at -20°C and -80°C. The study assessed their impact on microbial content, bactericidal activity, and links to maternal factors. Both lyophilization and -80°C freezing significantly reduced microbial presence compared to -20°C storage. Bactericidal activity remained unaffected by lyophilisation, correlating with ganglioside levels rather than fat, protein, or lactose content. Additionally, mature milk and milk from term deliveries showed higher bactericidal activity than milk from early lactation or preterm deliveries.</p><p>In summary, lyophilisation and freezing at -80°C emerged as effective methods for maintaining the safety and health benefits of stored breast milk, offering viable solutions for human milk banks. <a href=\"https://pubmed.ncbi.nlm.nih.gov/25406523/\" target=\"_blank\" title=\"https://pubmed.ncbi.nlm.nih.gov/25406523/\">See full article here.</a></p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_geHrmM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why Freeze-Drying is a Superior Method for Preserving Breast Milk's Nutritional Integrity",
+            "content": "<p>Freezing is a widely used method to store human milk; however, it can lead to some loss of its nutritional and immunological properties over time. Freeze-drying offers an alternative by potentially extending the milk's shelf life while maintaining its original qualities. A study analyzed 72 freeze-dried human milk samples stored for up to 3 months at temperatures of 4°C and 40°C. The research evaluated vitamin C, tocopherols (vitamin E compounds), antioxidant capacity, and fatty acid profiles, utilizing a newly validated HILIC–UHPLC method for precise vitamin C measurement.</p><p>Results showed that ascorbic acid and total vitamin C levels decreased significantly at both temperatures, while antioxidant capacity declined only at the higher temperature of 40°C. Fatty acid profiles and the content of γ-tocopherol and δ-tocopherol remained stable. Overall, freeze-dried milk demonstrated greater stability compared to frozen or fresh milk, suggesting it is a promising method for preserving human milk in milk banks. <a href=\"https://www.tandfonline.com/doi/full/10.3109/09637486.2014.917154?needAccess=true\" target=\"_blank\" title=\"See full article here.\">See full article here.</a></p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_MEEwAb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Freeze-Drying Breast Milk Retains its Antibacterial Properties",
+            "content": "<p>A study from CEU Cardenal Herrera University in Valencia confirms that freeze-drying is an effective alternative for storing breast milk compared to the conventional deep-freezing method used in milk banks. Researchers collaborated with experts from La Fe Hospital's milk bank in Spain, highlighting that freeze-drying preserves breast milk without microbiological contamination and without compromising its health benefits, particularly its antibacterial properties. Published in the Journal of Pediatric Gastroenterology and Nutrition, this study is one of the few to assess freeze-drying for breast milk storage, focusing on its crucial antibacterial capacity. The research recommends the adoption of freeze-drying as a storage method in milk banks, especially for premature or low birth weight babies who rely on breast milk's antibacterial benefits. The study analyzed 125 breast milk samples from 65 mothers and compared the effects of freeze-drying with conventional freezing methods, concluding that freeze-drying is a viable alternative for preserving breast milk's natural properties. <a href=\"https://medicalxpress.com/news/2015-12-freeze-drying-breast-retains-healthy-properties.html\" target=\"_blank\" title=\"https://medicalxpress.com/news/2015-12-freeze-drying-breast-retains-healthy-properties.html\">See full article here.</a></p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_L8TDWD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Impact of Pasteurization/Freeze-Drying on Available Immunoglobulin Content of the Mature Human Milk. Use in Human Milk Banking of Hospitals",
+            "content": "<p>This study examines the effects of freeze-drying mature human milk (MHM) after pasteurisation, using three different pasteurisation techniques, on key immune components like immunoglobulins and complement C3. The aim is to highlight freeze-drying as a supplementary method to enhance the preservation of MHM's therapeutic properties.</p><p>Milk samples were pasteurised at varying temperatures and times, rapidly cooled, and then freeze-dried. Researchers measured total protein levels along with immunoglobulins A, G, M, and complement C3 to evaluate the preservation of these critical components.</p><p>Findings showed that pasteurisation at 72°C before freeze-drying best retained immunoglobulins. The study concludes that freeze-drying pasteurised MHM is an effective strategy for human milk banks, preserving its nutritional and therapeutic qualities. This method offers extended storage capabilities, ensuring essential health benefits for immunosuppressed or vulnerable newborns. <a href=\"https://europepmc.org/article/med/29095015\" target=\"_blank\" title=\"https://europepmc.org/article/med/29095015\">See full study here.</a></p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_TjqqqW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Preserving Human Milk By Freeze-drying",
+            "content": "<p>Maintaining a sufficient supply of fresh human milk can be challenging, highlighting the importance of finding preservation methods that retain its quality. Freeze-drying has proven to be an effective solution, converting 100 grams of fresh milk into approximately 12.5 grams of powder. Bacteriological tests on the freeze-dried powder, stored at room temperature for four weeks in sealed containers, showed no significant bacterial growth. Electrophoresis analysis of the re-dissolved milk indicated that the migration velocity of its various components remained largely unchanged, unlike boiling or pasteurisation, which significantly alter these properties. When administered to six premature infants over an extended period, the preserved milk showed no significant differences in its effects compared to fresh milk.</p><p></p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_NYUrVt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_YV6F8b",
+        "collapsible_tab_hzPxUq",
+        "collapsible_tab_geHrmM",
+        "collapsible_tab_MEEwAb",
+        "collapsible_tab_L8TDWD",
+        "collapsible_tab_TjqqqW",
+        "collapsible_tab_NYUrVt"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "contact_form_86Wrnd": {
+      "type": "contact-form",
+      "blocks": {
+        "heading_j6LikG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in contact with us",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_B7MPUe": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Send us a message & we will get back to you in 24 hours.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_qAFmnf": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_j6LikG",
+        "paragraph_B7MPUe",
+        "email_form_qAFmnf"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "separator_DPWcmn",
+    "collapsible_menu_EUJVwm",
+    "contact_form_86Wrnd"
+  ]
+}

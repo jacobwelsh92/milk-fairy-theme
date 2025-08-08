@@ -1,0 +1,102 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16540314906fe3fb2b": {
+      "type": "lookbook",
+      "blocks": {
+        "c56510b3-3068-455a-9bac-ca00e8ea36bf": {
+          "type": "image",
+          "settings": {
+            "button_select": "primary",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c56510b3-3068-455a-9bac-ca00e8ea36bf"
+      ],
+      "settings": {
+        "heading": "Research & Resources",
+        "heading_disable_on_mobile": false,
+        "full-width-enabled": false,
+        "column_gap_desk": 16,
+        "column_gap": 8,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "transparent",
+        "color-bg-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_XjpjBT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XWmNYK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_8FEVqY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make annuncements, or welcome customers to your store.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_XRayFy": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XWmNYK",
+        "text_8FEVqY",
+        "button_XRayFy"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "16540314906fe3fb2b",
+    "main",
+    "rich_text_XjpjBT"
+  ]
+}

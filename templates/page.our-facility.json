@@ -1,0 +1,439 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_XGawV3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AY4wgY": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE MILK LAB",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_AY4wgY"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_R8FAQX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4QNfXc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Milk Fairy is proud to provide a fully <strong>personalised service</strong> with meticulous care. We use a one-client, one-chamber approach, ensuring only one mother’s milk is processed at a time. Your breast milk remains separated and secure throughout its entire journey in our facility.</p><p><br/>In our <strong>Milk Lab</strong>, all packaging and sealing are conducted under<strong> ISO-6 workstations</strong>, ensuring the highest standard for your breast milk powder. While we do not sell breast milk and current regulations do not require licensing for our service, we adhere to the Food Grade standard and principles, and continuously strive for certifications to enhance our processes.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_4QNfXc"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 0,
+        "margin-bottom": 20
+      }
+    },
+    "image_banner_i4xAXd": {
+      "type": "image-banner",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 720,
+        "mobile_fixed_height": 600,
+        "desktop_image": "shopify://shop_images/milk_fairy_team_in_pink_scrubs_cleaning_freeze_dryer_machine.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_8RC4Gy": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_j8jEgP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Safety is Our Top Priority",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_yzBRxf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Freeze-Dried with Care",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_6XFFUw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>\"We're mums too, we know that keeping our little ones safe and healthy is the most important thing in the world.\"</em></p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_j8jEgP",
+        "heading_yzBRxf",
+        "text_6XFFUw"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#fff7e2",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/milk_fairy_safe_breast_milk_processing_in_clean_freeze_dryer_facility.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 80,
+        "margin-bottom": 80
+      }
+    },
+    "image_banner_UgqMpW": {
+      "type": "image-banner",
+      "blocks": {
+        "subheading_Hr6qPF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Your Safety Is Our Priority",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_th6xY7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our promise, a safe and secure freeze-drying process from start to finish",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_rbQptc": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Hr6qPF",
+        "heading_th6xY7",
+        "text_rbQptc"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "\"We're mums too, we know that keeping our little ones safe and healthy is the most important thing in the world.\"",
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/sms_and_email_updates_from_friendly_staff_processing_freeze_dried_breast_milk_in_australia_family_run_business.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "#ffffff",
+        "section-color-overlay": "#000000",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 28,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_CNFyry": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fxgAJh": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're Australia’s first and only service to offer a fully personalised experience, from pickup to processing.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_Mr6byA": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_erjYfL": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fxgAJh",
+        "text_Mr6byA",
+        "button_erjYfL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/IMG_0823_2.heic",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_BULnBt": {
+      "type": "features-banner",
+      "blocks": {
+        "image_B9cwc4": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1_9f16d64c-f2d8-4db5-a4a8-dfff5b17fd83.png",
+            "select_icon": "bag",
+            "heading": "Initial Quality Control",
+            "text": "<p>We weigh, record, temperature test, label, and barcode your frozen breast milk. </p>"
+          }
+        },
+        "image_c4fJgr": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/2_4e4faf01-c325-4288-9ca6-526945919c68.png",
+            "select_icon": "bag",
+            "heading": "Freezer Storage",
+            "text": "<p>Your milk is securely stored in our freezer with temperature monitoring during our 2-3 week turnaround (lead times can vary).</p>"
+          }
+        },
+        "image_8pnyRM": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/3_ed972c69-befa-4cc2-8520-c5ad3727f6c5.png",
+            "select_icon": "bag",
+            "heading": "Processing",
+            "text": "<p>Only ever processing one mothers milk at a time, your breast milk is freeze dried in its own very freeze dryer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_B9cwc4",
+        "image_c4fJgr",
+        "image_8pnyRM"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 80,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_eghNce": {
+      "type": "features-banner",
+      "blocks": {
+        "image_eLYrfM": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/4_afeaa424-4389-4b6d-8f56-edf27d8a6294.png",
+            "select_icon": "bag",
+            "heading": "Sterile Packaging",
+            "text": "<p>Your breast milk is carefully packaged under ISO Class 2 sterile conditions, ensuring top safety and purity every step of the way.</p>"
+          }
+        },
+        "image_BAUA4X": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/5_68365682-a0a0-4c93-9803-426114ddb745.png",
+            "select_icon": "bag",
+            "heading": "Final Checks",
+            "text": "<p>A trained technician measures the water activity of your milk to meet dryness standards, ensuring it’s safe for up to three years.</p>"
+          }
+        },
+        "image_ymqGme": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/6_7552100b-742b-4d89-a6b5-e4b976b6d013.png",
+            "select_icon": "bag",
+            "heading": "SMS Updates",
+            "text": "<p>Stay in the loop with SMS and email updates, complete with detailed notes to keep your order transparent every step of the way.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_eLYrfM",
+        "image_BAUA4X",
+        "image_ymqGme"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 0,
+        "margin-bottom": 80
+      }
+    },
+    "benefits_video_pUjMnf": {
+      "type": "benefits-video",
+      "blocks": {
+        "video_fGKq76": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_2568 2.mov",
+            "text": ""
+          }
+        },
+        "video_Fkykha": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_2331 2.mov",
+            "text": ""
+          }
+        },
+        "video_ArtL6T": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_0972 4.mov",
+            "text": ""
+          }
+        },
+        "video_ihhGY9": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_2228 3.mov",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_fGKq76",
+        "video_Fkykha",
+        "video_ArtL6T",
+        "video_ihhGY9"
+      ],
+      "name": "t:sections.benefits-video.name",
+      "settings": {
+        "heading": "",
+        "video_button": false,
+        "text_alignment": "left",
+        "text_style": "body",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "featured_navigation_pFKV7g": {
+      "type": "featured-navigation",
+      "settings": {
+        "heading": "",
+        "menu": "main-menu",
+        "desktop_placement": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_XGawV3",
+    "rich_text_R8FAQX",
+    "image_banner_i4xAXd",
+    "image_with_text_8RC4Gy",
+    "image_banner_UgqMpW",
+    "image_with_text_CNFyry",
+    "features_banner_BULnBt",
+    "features_banner_eghNce",
+    "benefits_video_pUjMnf",
+    "featured_navigation_pFKV7g"
+  ]
+}

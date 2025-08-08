@@ -1,0 +1,469 @@
+{% comment %}
+  Magic Warmmy Hero Section - The 2AM Promise
+  Emotional hook with immediate value proposition
+{% endcomment %}
+
+<style>
+  .warmmy-hero {
+    background: linear-gradient(135deg, #fff7e2 0%, #fef4e8 50%, #fff 100%);
+    padding: 40px 0 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .warmmy-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(245,178,185,0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  
+  .warmmy-hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  
+  .warmmy-hero-content {
+    z-index: 2;
+  }
+  
+  .warmmy-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #191004;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .warmmy-hero-badge svg {
+    width: 16px;
+    height: 16px;
+    fill: #f5b2b9;
+  }
+  
+  .warmmy-hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 1.1;
+    color: #191004;
+    margin-bottom: 20px;
+  }
+  
+  .warmmy-hero-title span {
+    color: #f5b2b9;
+    position: relative;
+  }
+  
+  .warmmy-hero-subtitle {
+    font-size: 20px;
+    color: #3d2522;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .warmmy-hero-features {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .warmmy-hero-feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #191004;
+  }
+  
+  .warmmy-hero-feature svg {
+    width: 20px;
+    height: 20px;
+    fill: #4CAF50;
+    flex-shrink: 0;
+  }
+  
+  .warmmy-hero-price {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .warmmy-hero-price-current {
+    font-size: 36px;
+    font-weight: bold;
+    color: #191004;
+  }
+  
+  .warmmy-hero-price-was {
+    font-size: 20px;
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .warmmy-hero-price-save {
+    background: #f5b2b9;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .warmmy-hero-cta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .warmmy-hero-button {
+    background: #000;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .warmmy-hero-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+  
+  .warmmy-hero-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+  }
+  
+  .warmmy-hero-button:hover::before {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .warmmy-hero-timer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #f5b2b9;
+    font-weight: 600;
+  }
+  
+  .warmmy-hero-trust {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+  }
+  
+  .warmmy-hero-stars {
+    display: flex;
+    gap: 2px;
+  }
+  
+  .warmmy-hero-stars svg {
+    width: 16px;
+    height: 16px;
+    fill: #fcc97e;
+  }
+  
+  .warmmy-hero-reviews {
+    font-size: 14px;
+    color: #3d2522;
+  }
+  
+  .warmmy-hero-shipping {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #3d2522;
+  }
+  
+  .warmmy-hero-shipping svg {
+    width: 18px;
+    height: 18px;
+    fill: #4CAF50;
+  }
+  
+  .warmmy-hero-media {
+    position: relative;
+  }
+  
+  .warmmy-hero-video {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 2;
+  }
+  
+  .warmmy-hero-float {
+    position: absolute;
+    background: white;
+    padding: 12px 16px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .warmmy-hero-float-1 {
+    bottom: 20px;
+    left: -30px;
+    z-index: 3;
+  }
+  
+  .warmmy-hero-float-2 {
+    top: 20px;
+    right: -20px;
+    z-index: 1;
+  }
+  
+  .warmmy-hero-float img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .warmmy-hero-float-text {
+    font-size: 13px;
+  }
+  
+  .warmmy-hero-float-name {
+    font-weight: 600;
+    color: #191004;
+  }
+  
+  .warmmy-hero-float-action {
+    color: #717171;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .warmmy-hero {
+      padding: 30px 0 40px;
+    }
+    
+    .warmmy-hero-container {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    
+    .warmmy-hero-title {
+      font-size: 32px;
+    }
+    
+    .warmmy-hero-subtitle {
+      font-size: 18px;
+    }
+    
+    .warmmy-hero-features {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .warmmy-hero-cta {
+      flex-direction: column;
+    }
+    
+    .warmmy-hero-button {
+      width: 100%;
+    }
+    
+    .warmmy-hero-float {
+      display: none;
+    }
+  }
+</style>
+
+<section class="warmmy-hero">
+  <div class="warmmy-hero-container">
+    <div class="warmmy-hero-content">
+      <div class="warmmy-hero-badge">
+        <svg viewBox="0 0 20 20">
+          <path d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.45 11.97L3.82 19L10 15.27Z"/>
+        </svg>
+        <span>5,000+ Aussie Mums Love This</span>
+      </div>
+      
+      <h1 class="warmmy-hero-title">
+        Your Baby's Milk, <span>Perfect Temperature</span>, in 60 Seconds
+      </h1>
+      
+      <p class="warmmy-hero-subtitle">
+        No more crying at 2am. No more cold milk disasters. Just peaceful feeds, anywhere, anytime.
+      </p>
+      
+      <div class="warmmy-hero-features">
+        <div class="warmmy-hero-feature">
+          <svg viewBox="0 0 20 20">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+          </svg>
+          <span>Warms in 60 seconds</span>
+        </div>
+        <div class="warmmy-hero-feature">
+          <svg viewBox="0 0 20 20">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+          </svg>
+          <span>Completely silent</span>
+        </div>
+        <div class="warmmy-hero-feature">
+          <svg viewBox="0 0 20 20">
+            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+          </svg>
+          <span>Works anywhere</span>
+        </div>
+      </div>
+      
+      <div class="warmmy-hero-price">
+        <span class="warmmy-hero-price-current">$199</span>
+        <span class="warmmy-hero-price-was">$220</span>
+        <span class="warmmy-hero-price-save">SAVE $21</span>
+      </div>
+      
+      <div class="warmmy-hero-cta">
+        <button class="warmmy-hero-button" onclick="addToCart()">
+          Get Yours Before 2am Tonight
+        </button>
+        <div class="warmmy-hero-timer">
+          <span>⏰</span>
+          <span class="timer-countdown">Offer ends in 59:47</span>
+        </div>
+      </div>
+      
+      <div class="warmmy-hero-trust">
+        <div class="warmmy-hero-stars">
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+        </div>
+        <span class="warmmy-hero-reviews">286 reviews</span>
+        <div class="warmmy-hero-shipping">
+          <svg viewBox="0 0 20 20">
+            <path d="M10 20a10 10 0 110-20 10 10 0 010 20zm-2-5l9-9-1.41-1.41L8 12.17l-3.59-3.58L3 10l7 7z"/>
+          </svg>
+          <span>Free Express Shipping</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="warmmy-hero-media">
+      <video class="warmmy-hero-video" autoplay muted loop playsinline poster="{{ 'warmmy-hero-poster.jpg' | asset_url }}">
+        <source src="{{ 'warmmy-demo.mp4' | asset_url }}" type="video/mp4">
+        <img src="{{ 'IMG_3163.webp' | asset_url }}" alt="Magic Warmmy in action">
+      </video>
+      
+      <div class="warmmy-hero-float warmmy-hero-float-1">
+        <img src="{{ 'customer-avatar-1.jpg' | asset_url }}" alt="Sarah">
+        <div class="warmmy-hero-float-text">
+          <div class="warmmy-hero-float-name">Sarah M.</div>
+          <div class="warmmy-hero-float-action">just purchased</div>
+        </div>
+      </div>
+      
+      <div class="warmmy-hero-float warmmy-hero-float-2">
+        <img src="{{ 'customer-avatar-2.jpg' | asset_url }}" alt="Emma">
+        <div class="warmmy-hero-float-text">
+          <div class="warmmy-hero-float-name">Emma K.</div>
+          <div class="warmmy-hero-float-action">saved 20 mins</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Add to cart functionality
+  function addToCart() {
+    // Add product to cart via Shopify API
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        id: {{ all_products['milk-fairy-portable-milk-warmer-bottle'].selected_or_first_available_variant.id | json }},
+        quantity: 1
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Redirect to checkout or show cart drawer
+      window.location.href = '/checkout';
+    });
+  }
+  
+  // Timer countdown
+  (function() {
+    const timer = document.querySelector('.warmmy-hero .timer-countdown');
+    if (!timer) return;
+    
+    let minutes = 59;
+    let seconds = 47;
+    
+    setInterval(() => {
+      seconds--;
+      if (seconds < 0) {
+        seconds = 59;
+        minutes--;
+        if (minutes < 0) {
+          minutes = 59;
+        }
+      }
+      timer.textContent = `Offer ends in ${minutes}:${seconds.toString().padStart(2, '0')}`;
+    }, 1000);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Magic Warmmy Hero",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Magic Warmmy Hero"
+    }
+  ]
+}
+{% endschema %}

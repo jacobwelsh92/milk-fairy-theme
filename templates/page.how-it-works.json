@@ -1,0 +1,331 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "image_with_text_hVbWka": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_ndp4qK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_p7mViT": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Does it Work?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_XQKyMX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Freeze-drying is a process that gently removes the water from your frozen breast milk — preserving the most of the powerful nutrients, antibodies, and goodness inside. What you get is a shelf-stable, travel-friendly powder that lasts for years and rehydrates just like formula — but it’s 100% your own breast milk.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ndp4qK",
+        "heading_p7mViT",
+        "text_XQKyMX"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "Australia's Personal Breast Milk Freeze-Drying Service",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/6_41887177-fad9-4583-92e5-283bcb40e210.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_FFKEc9": {
+      "type": "features-banner",
+      "blocks": {
+        "image_6FGUCp": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/purchase-breast-milk-kit-book-collection-milk-fairy.png",
+            "select_icon": "user",
+            "heading": "Purchase & book",
+            "text": "<p>Purchase a kit and book your collection date by following the prompts provided in your confirmation email.</p>"
+          }
+        },
+        "image_k9PD93": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/milk-fairy-kit-delivery-kit-to-home-with-label.png",
+            "select_icon": "bag",
+            "heading": "We send the kit to your home",
+            "text": "<p>Your kit is dispatched from our facility within 24hrs of receiving your confirmed collection date.</p>"
+          }
+        },
+        "image_6NTdkE": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/pack-frozen-breast-milk-for-collection-milk-fairy.png",
+            "select_icon": "bag",
+            "heading": "You pack & send",
+            "text": "<p>Pack and prepare your frozen breast milk the morning of collection from your home. Be sure to set up your GPS tracking device.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_6FGUCp",
+        "image_k9PD93",
+        "image_6NTdkE"
+      ],
+      "settings": {
+        "heading": "How it works:",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_3cH7tP": {
+      "type": "features-banner",
+      "blocks": {
+        "image_7W98NM": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/courier-collection-breast-milk-delivery-facility.png",
+            "select_icon": "search",
+            "heading": "We collect",
+            "text": "<p>Our courier will arrive between 9:30 am and 1:30 pm on your collection date to pick up your packaged, frozen breast milk and deliver it safely to our facility.</p>"
+          }
+        },
+        "image_FMrgwA": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/freeze-dry-breast-milk-moisture-testing-milk-fairy.png",
+            "select_icon": "bag",
+            "heading": "We freeze-dry & test",
+            "text": "<p>Your breast milk is freeze-dried, moisture-tested, then packed into easy-to-use sachets. You will receive back the exact amount you sent.</p>"
+          }
+        },
+        "image_dEW4YL": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/return-breast-milk-powder-to-doorstep-milk-fairy.png",
+            "select_icon": "bag",
+            "heading": "We return",
+            "text": "<p>Your breast milk powder is delivered back to your doorstep, ready to use. Your GPS tracker is included in this shipment to provide live delivery tracking.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_7W98NM",
+        "image_FMrgwA",
+        "image_dEW4YL"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "shoppable_video_684aNd": {
+      "type": "shoppable-video",
+      "blocks": {
+        "product_7TMtyd": {
+          "type": "product",
+          "settings": {
+            "start_second": 6,
+            "featured_product": "breast-milk-freeze-drying-service-shipping-kit-send-my-milk"
+          }
+        }
+      },
+      "block_order": [
+        "product_7TMtyd"
+      ],
+      "name": "t:sections.shoppable-video.name",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "quick-add-enabled": false,
+        "rewind-enabled": false,
+        "hide-brand-name": false,
+        "video_hosted": "shopify://files/videos/Freeze-dried breast milk australia.mov",
+        "desktop_fixed_height": 600,
+        "mobile_fixed_height": 480,
+        "enable_full_screen_mode": false,
+        "color-body-heading": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "background_video_DXjzPn": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_Gg94Bn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_baH4i7": {
+          "type": "heading",
+          "settings": {
+            "heading": "TMF HQ",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_VhCX9q": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>All processing takes place in our <strong>Milk Lab</strong> — a food-grade, GMP-standard compliant facility based in <strong>Geelong, VIC</strong>.</p><p>We’re proudly the only service in Australia that processes <strong>one mama’s milk at a time</strong>, using private chambers and dedicated handling from start to finish. Why? Because your breast milk is personal — and we treat it that way.</p><p>Just meticulous care, pharmaceutical-grade cleanliness, and your milk — safely sealed in our specialised Mylar pouches, ready for whenever you need it.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_jDJ4WB": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "MORE ABOUT OUR FACILITY",
+            "button_link": "shopify://pages/our-facility",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_baH4i7",
+        "text_VhCX9q",
+        "button_jDJ4WB"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/IMG_6019.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_pk46tH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qNwP79": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_QbPaRT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What makes us different? Everything.</p><p>We are the <strong>only</strong> service in Australia that processes each mother’s milk <strong>individually</strong>, in her own private freeze-drying chamber. That means your milk is <strong>never shares a tray or machine with another clients</strong>, and always handled with the highest standard of care.<br/><br/>At The Milk Fairy, <strong>your milk is your milk</strong>, from start to finish.</p><p>Because you’ve poured your heart into making it — and we believe it deserves to be treated with the same love and care.<br/><br/>From our food safety standard lab to our certified handling process to our custom-designed shipping kits, every step is built with one goal in mind: To make breast milk the use & storage of breast milk simpler, safer, and in turn, allow for your journey to extend too.</p><p><br/><em>Freeze-drying made magical. Breastfeeding made flexible.<br/><br/></em></p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_rKDj7V": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Get my Milk Fairy kit",
+            "button_link": "shopify://products/breast-milk-freeze-drying-service-shipping-kit-send-my-milk",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qNwP79",
+        "text_QbPaRT",
+        "button_rKDj7V"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_hVbWka",
+    "features_banner_FFKEc9",
+    "features_banner_3cH7tP",
+    "shoppable_video_684aNd",
+    "background_video_DXjzPn",
+    "image_with_text_Gg94Bn",
+    "rich_text_pk46tH"
+  ]
+}

@@ -1,0 +1,323 @@
+{% comment %}
+  Social Proof - Real Stories from Real Mums
+  Building trust through authentic testimonials
+{% endcomment %}
+
+<style>
+  .warmmy-testimonials {
+    padding: 80px 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  
+  .warmmy-testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .warmmy-testimonials-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .warmmy-testimonials-badge {
+    display: inline-block;
+    background: #f5b2b9;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .warmmy-testimonials-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: #191004;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .warmmy-testimonials-subtitle {
+    font-size: 18px;
+    color: #3d2522;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .warmmy-testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .warmmy-testimonial {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .warmmy-testimonial:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.12);
+  }
+  
+  .warmmy-testimonial-stars {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 15px;
+  }
+  
+  .warmmy-testimonial-stars svg {
+    width: 16px;
+    height: 16px;
+    fill: #fcc97e;
+  }
+  
+  .warmmy-testimonial-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #191004;
+    margin-bottom: 20px;
+  }
+  
+  .warmmy-testimonial-text strong {
+    color: #f5b2b9;
+    font-weight: 600;
+  }
+  
+  .warmmy-testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .warmmy-testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .warmmy-testimonial-info {
+    flex: 1;
+  }
+  
+  .warmmy-testimonial-name {
+    font-weight: 600;
+    color: #191004;
+    margin-bottom: 2px;
+  }
+  
+  .warmmy-testimonial-meta {
+    font-size: 13px;
+    color: #717171;
+  }
+  
+  .warmmy-testimonial-verified {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #e8f5e9;
+    color: #4CAF50;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  .warmmy-testimonial-verified svg {
+    width: 12px;
+    height: 12px;
+    fill: #4CAF50;
+  }
+  
+  .warmmy-featured-review {
+    background: linear-gradient(135deg, #fff7e2 0%, #fff 100%);
+    border: 2px solid #f5b2b9;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  
+  .warmmy-featured-badge {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    background: #f5b2b9;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .warmmy-featured-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .warmmy-featured-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  
+  .warmmy-featured-text {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #191004;
+    margin-bottom: 25px;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .warmmy-testimonials {
+      padding: 60px 0;
+    }
+    
+    .warmmy-testimonials-title {
+      font-size: 32px;
+    }
+    
+    .warmmy-testimonials-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    
+    .warmmy-featured-content {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+</style>
+
+<section class="warmmy-testimonials">
+  <div class="warmmy-testimonials-container">
+    <div class="warmmy-testimonials-header">
+      <span class="warmmy-testimonials-badge">Real Stories</span>
+      <h2 class="warmmy-testimonials-title">Join 5,000+ Happy Mums</h2>
+      <p class="warmmy-testimonials-subtitle">
+        Don't just take our word for it. Hear from exhausted mums who got their nights back.
+      </p>
+    </div>
+    
+    <div class="warmmy-featured-review">
+      <span class="warmmy-featured-badge">Featured Review</span>
+      <div class="warmmy-featured-content">
+        <img src="{{ 'warmmy-review-photo.jpg' | asset_url }}" alt="Happy baby feeding" class="warmmy-featured-image">
+        <div>
+          <p class="warmmy-featured-text">
+            "I was skeptical at first - another baby gadget? But after the first 2am feed with Magic Warmmy, 
+            I literally cried happy tears. <strong>60 seconds of silence instead of 10 minutes of screaming</strong> 
+            while waiting for the old warmer. My husband didn't even wake up! Worth every single cent."
+          </p>
+          <div class="warmmy-testimonial-author">
+            <img src="{{ 'customer-jessica.jpg' | asset_url }}" alt="Jessica" class="warmmy-testimonial-avatar">
+            <div class="warmmy-testimonial-info">
+              <div class="warmmy-testimonial-name">Jessica Thompson</div>
+              <div class="warmmy-testimonial-meta">
+                Mum of twins, Brisbane
+                <span class="warmmy-testimonial-verified">
+                  <svg viewBox="0 0 20 20"><path d="M10 20a10 10 0 110-20 10 10 0 010 20zm-2-5l9-9-1.41-1.41L8 12.17l-3.59-3.58L3 10l7 7z"/></svg>
+                  Verified Buyer
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="warmmy-testimonials-grid">
+      <div class="warmmy-testimonial">
+        <div class="warmmy-testimonial-stars">
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+        </div>
+        <p class="warmmy-testimonial-text">
+          "Game changer for car trips! <strong>No more stopping at servos</strong> to warm bottles. 
+          Just plug into the USB and done. Wish I had this for my first baby!"
+        </p>
+        <div class="warmmy-testimonial-author">
+          <img src="{{ 'customer-avatar-3.jpg' | asset_url }}" alt="Rachel" class="warmmy-testimonial-avatar">
+          <div class="warmmy-testimonial-info">
+            <div class="warmmy-testimonial-name">Rachel Chen</div>
+            <div class="warmmy-testimonial-meta">Sydney • 2 weeks ago</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="warmmy-testimonial">
+        <div class="warmmy-testimonial-stars">
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+        </div>
+        <p class="warmmy-testimonial-text">
+          "Finally sleeping through feeds again! Baby stays calm, <strong>I stay calm</strong>, 
+          everyone goes back to sleep faster. Why didn't someone invent this sooner?"
+        </p>
+        <div class="warmmy-testimonial-author">
+          <img src="{{ 'customer-avatar-4.jpg' | asset_url }}" alt="Amanda" class="warmmy-testimonial-avatar">
+          <div class="warmmy-testimonial-info">
+            <div class="warmmy-testimonial-name">Amanda Roberts</div>
+            <div class="warmmy-testimonial-meta">Perth • 1 month ago</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="warmmy-testimonial">
+        <div class="warmmy-testimonial-stars">
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 15L4 18l1.5-7L0 7l7-.5L10 0l3 6.5l7 .5l-5.5 4L16 18z"/></svg>
+        </div>
+        <p class="warmmy-testimonial-text">
+          "Bought one for home, one for the car, and one for grandma's house. 
+          <strong>Perfect temp every single time.</strong> No more guessing!"
+        </p>
+        <div class="warmmy-testimonial-author">
+          <img src="{{ 'customer-avatar-5.jpg' | asset_url }}" alt="Sophie" class="warmmy-testimonial-avatar">
+          <div class="warmmy-testimonial-info">
+            <div class="warmmy-testimonial-name">Sophie Williams</div>
+            <div class="warmmy-testimonial-meta">Gold Coast • 3 days ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Magic Warmmy Testimonials",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Magic Warmmy Testimonials"
+    }
+  ]
+}
+{% endschema %}

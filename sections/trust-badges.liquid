@@ -1,0 +1,124 @@
+{% comment %}
+  Trust Badges Section
+  Display trust signals above the fold
+{% endcomment %}
+
+<div class="trust-badges-strip">
+  <div class="trust-badges-container">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'badge' %}
+          <div class="trust-badge" {{ block.shopify_attributes }}>
+            {% if block.settings.icon %}
+              <span class="trust-badge-icon">
+                {% case block.settings.icon %}
+                  {% when 'shipping' %}
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L7 13v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H6v-2h2c.55 0 1-.45 1-1V5h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                    </svg>
+                  {% when 'guarantee' %}
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M10 0L12.09 6.26L19 7.27L14.5 11.65L15.82 18.5L10 15.27L4.18 18.5L5.5 11.65L1 7.27L7.91 6.26L10 0Z"/>
+                    </svg>
+                  {% when 'reviews' %}
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.45 11.97L3.82 19L10 15.27Z"/>
+                    </svg>
+                  {% when 'secure' %}
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm-2 15l-5-5 1.41-1.41L8 12.17l7.59-7.59L17 6l-9 9z"/>
+                    </svg>
+                  {% when 'australian' %}
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm4.21 16.2L10 13.77 5.79 16.2l1.12-4.81L3.24 8.06l4.92-.42L10 3.1l1.84 4.54 4.92.42-3.67 3.33 1.12 4.81z"/>
+                    </svg>
+                {% endcase %}
+              </span>
+            {% endif %}
+            <span class="trust-badge-text">{{ block.settings.text }}</span>
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  /* Trust badges styles are in mobile-enhancements.css */
+</style>
+
+{% schema %}
+{
+  "name": "Trust Badges",
+  "max_blocks": 5,
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Trust Badge",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "shipping",
+              "label": "Shipping"
+            },
+            {
+              "value": "guarantee",
+              "label": "Guarantee"
+            },
+            {
+              "value": "reviews",
+              "label": "Reviews"
+            },
+            {
+              "value": "secure",
+              "label": "Secure"
+            },
+            {
+              "value": "australian",
+              "label": "Australian"
+            }
+          ],
+          "default": "shipping"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Badge Text",
+          "default": "Free Express Shipping"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust Badges",
+      "blocks": [
+        {
+          "type": "badge",
+          "settings": {
+            "icon": "reviews",
+            "text": "5000+ Aussie Mums"
+          }
+        },
+        {
+          "type": "badge",
+          "settings": {
+            "icon": "shipping",
+            "text": "Free Express Shipping"
+          }
+        },
+        {
+          "type": "badge",
+          "settings": {
+            "icon": "guarantee",
+            "text": "30-Day Guarantee"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,499 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "image_with_text_jBPgMH": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_rBxNzK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_YYM7U9": {
+          "type": "heading",
+          "settings": {
+            "heading": "On a flight, at the park, or up for the 3am feed.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_cye6g3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Gorgeously chic and built to match your lifestyle. The only warmer that keeps water warm for up to 24 hours, warms breast milk in minutes, and looks absolutely beautiful while doing it. We’ve taken the guesswork out of warming milk <em>and</em> out of deciding which warmer to buy.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_NdQx3j": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Shop now",
+            "button_link": "shopify://products/milk-fairy-portable-milk-warmer-bottle",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rBxNzK",
+        "heading_YYM7U9",
+        "text_cye6g3",
+        "button_NdQx3j"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/DSC_7307.jpg",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "features_banner_Mqa37E": {
+      "type": "features-banner",
+      "blocks": {
+        "image_iQTTVz": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Brown_and_Pink_Minimal_Icons_Icon_Set.png",
+            "select_icon": "star_fill",
+            "heading": "All Day Warmth",
+            "text": "<p>Doubles as a thermos, keeping water warm for 24 hours with a built-in real-time thermometer.</p>"
+          }
+        },
+        "image_ftziRt": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Brown_and_Pink_Minimal_Icons_Icon_Set.png",
+            "select_icon": "star_fill",
+            "heading": "Self Sterilising",
+            "text": "<p>Built-in 65°C pasteurisation for ultimate safety and peace of mind.</p>"
+          }
+        },
+        "image_hVPLqU": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Brown_and_Pink_Minimal_Icons_Icon_Set.png",
+            "select_icon": "star_fill",
+            "heading": "Use Anywhere",
+            "text": "<p>On a plane, at the park or 3am feeds. Every parent needs this warmer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_iQTTVz",
+        "image_ftziRt",
+        "image_hVPLqU"
+      ],
+      "name": "t:sections.features-banner.settings.presets.name",
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_PCC3LJ": {
+      "type": "features-banner",
+      "blocks": {
+        "image_apjUym": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Brown_and_Pink_Minimal_Icons_Icon_Set.png",
+            "select_icon": "star_fill",
+            "heading": "2 Hour Fast Charging",
+            "text": "<p>Lightning charging function with quick 60w adapter capabilities and UCBc - UCBc cord.</p>"
+          }
+        },
+        "image_ck7WjP": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Brown_and_Pink_Minimal_Icons_Icon_Set.png",
+            "select_icon": "star_fill",
+            "heading": "Freeze-drying Approved",
+            "text": "<p>Specifically designed to keep the water used for reconstituting breast milk powder pure and free from contaminants, while preserving the nutrients in both fresh and powdered breast milk during rehydration.</p>"
+          }
+        },
+        "image_TbGC74": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Brown_and_Pink_Minimal_Icons_Icon_Set.png",
+            "select_icon": "star_fill",
+            "heading": "1-3 Minute Fast Warming Time",
+            "text": "<p>The fastest warmer on the market with 1-3 minute quick warming, no matter where you are.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_apjUym",
+        "image_ck7WjP",
+        "image_TbGC74"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "video_section_P4heKD": {
+      "type": "video-section",
+      "blocks": {
+        "heading_aki4ba": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "button_Qb346t": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "SHOP",
+            "button_link": "shopify://products/milk-fairy-portable-milk-warmer-bottle",
+            "button_link_in_new_window": false,
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aki4ba",
+        "button_Qb346t"
+      ],
+      "name": "t:sections.video.settings.presets.name",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 560,
+        "mobile_fixed_height": 460,
+        "video_hosted": "shopify://files/videos/IMG_6780_35d21bc4-2091-467f-8f08-8ad38ae8a213.MOV",
+        "video_url": "",
+        "layout_mobile": "video",
+        "layout": "video_first",
+        "color-heading-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/Screenshot_2025-06-18_at_8.46.15_am.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "collapsible_menu_PfjPbx": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_H3YiPT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Use",
+            "content": "<p>1. Fill the bottle with liquid of choice (breast milk, water, formula)</p><p>2. Turn on the warmer and select your desired temperature (20 temperature settings)</p><p>3. Wait 1–3 minutes for rapid heating</p><p>4. Pour into baby bottle.</p><p>5. Enjoy the convenience of perfectly warm feeds anytime, anywhere.</p><p><br/><br/></p><p><br/></p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_pQiG6a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Battery Life & Charging",
+            "content": "<p> Enjoy up to <strong>24</strong> <strong>hours of battery life</strong> on a full charge — perfect for a full day of feeds on the go. Only charge with the included <strong>USB-C cable</strong> (approx. 2 hours for a full charge). A handy indicator light lets you know when it's ready to roll. Always charge with the lid open and keep the charging port dry.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_VNTW34": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cleaning Kit Included",
+            "content": "<p>Even though the Milk Fairy Warmer + Thermos features a self-sterilising function, we wanted to make things even easier for you. That’s why each warmer comes as a complete kit — including a bottle brush and a 100ml bottle of 3% food-grade hydrogen peroxide — so you can clean on the go, even without using any battery.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_m8xFkH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cleaning your Magic Warmie +",
+            "content": "<p><a href=\"https://www.instagram.com/p/DLlmy_3Tyif/\" target=\"_blank\" title=\"Cleaning your Magic Warmie\">Guide here</a></p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_H3YiPT",
+        "collapsible_tab_pQiG6a",
+        "collapsible_tab_VNTW34",
+        "collapsible_tab_m8xFkH"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "grid_view_wRwLiC": {
+      "type": "grid-view",
+      "blocks": {
+        "image_HKy7bA": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 0,
+            "desktop_image": "shopify://shop_images/fact_fast_charging_milk_fairy_warmer_png.png",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/fact_fast_charging_milk_fairy_warmer_png.png",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        },
+        "image_xyq7cw": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 0,
+            "desktop_image": "shopify://shop_images/fact_self_sterilising_milk_fairy_warmer_png.png",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/fact_self_sterilising_milk_fairy_warmer_png.png",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        },
+        "image_cEnejb": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 0,
+            "desktop_image": "shopify://shop_images/fact_fast_heating_milk_fairy_warmer.png",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/fact_fast_heating_milk_fairy_warmer.png",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_HKy7bA",
+        "image_xyq7cw",
+        "image_cEnejb"
+      ],
+      "name": "t:sections.grid-view.settings.presets.name",
+      "settings": {
+        "title": "",
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_MXgpCk": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_JrH4wK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_hPKVhG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Warmth, simplified.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_49fxJD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Magic Warmie is the ultimate feeding companion for busy mums. It heats water and breast milk in just 1–3 minutes, keeps water warm for up to 24 hours, and works with formula, freeze-dried or fresh breast milk & cows milk. With cordless convenience, precise temperature control, and a sleek, leak-proof design, it’s made to go wherever motherhood takes you — no power point needed.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_qBiRyG": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Shop now",
+            "button_link": "shopify://products/milk-fairy-portable-milk-warmer-bottle",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JrH4wK",
+        "heading_hPKVhG",
+        "text_49fxJD",
+        "button_qBiRyG"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/DSC_7076_f1c64e54-66ce-472e-861b-382223ed685b.jpg",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "slideshow_bd9eVQ": {
+      "type": "slideshow",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "auto-rotate": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "heading_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "out_hero_mobile": false,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "1749449804f2fc46c9": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_carousel_yinbwg": {
+          "type": "shopify://apps/okendo/blocks/reviews-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_carousel_yinbwg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_jBPgMH",
+    "features_banner_Mqa37E",
+    "features_banner_PCC3LJ",
+    "video_section_P4heKD",
+    "collapsible_menu_PfjPbx",
+    "grid_view_wRwLiC",
+    "image_with_text_MXgpCk",
+    "slideshow_bd9eVQ",
+    "1749449804f2fc46c9"
+  ]
+}

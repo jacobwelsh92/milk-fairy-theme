@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "separator_wMnJzy": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "heading": "The Benefits",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 0
+      }
+    },
+    "image_with_text_jnJQNp": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_kQXhVd": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_Y3qXy8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our MIssion",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_CGYGfc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you a health advocate passionate about breastfeeding — or a qualified IBCLC, midwife, naturopath, or perinatal specialist looking to make a greater impact in the mother & baby space? <br/><br/>We’re building a powerful community of like-minded partners who share our mission: <strong>to increase the number of mothers who are still breastfeeding at twelve months — and who are happy, confident, and supported in doing so.<br/><br/><br/></strong>At The Milk Fairy, we believe breastfeeding shouldn’t feel like a race against time. Our goal is to ease the pressures, restore maternal freedom, and support baby health — one sachet of freeze-dried breast milk at a time.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_kQXhVd",
+        "heading_Y3qXy8",
+        "text_CGYGfc"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/2_96b67e93-cadb-404b-bc3f-27aff55ddcfc.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "collapsible_menu_iWgj4Q": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_wyQEFP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Partner Referral Code",
+            "content": "<p>Receive your own affiliate code to share with clients and your community.</p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "collapsible_tab_xg8cVa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ability to Earn Commissions",
+            "content": "<p>Rewards for every referral that supports our mission.</p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "collapsible_tab_EiLyE9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The First to Know",
+            "content": "<p>First access to new research, tools, and educational resources</p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "collapsible_tab_hxGVXq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Be Part of Something Powerful",
+            "content": "<p>The opportunity to be part of a movement rewriting the breastfeeding narrative for the next generation of mothers</p>",
+            "page": "",
+            "icon": "heart"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_wyQEFP",
+        "collapsible_tab_xg8cVa",
+        "collapsible_tab_EiLyE9",
+        "collapsible_tab_hxGVXq"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "contact_form_XYAmrT": {
+      "type": "contact-form",
+      "blocks": {
+        "heading_zkLJjh": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_dBbEUF": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Please register your interest below.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_U74LdJ": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zkLJjh",
+        "paragraph_dBbEUF",
+        "email_form_U74LdJ"
+      ],
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "separator_wMnJzy",
+    "image_with_text_jnJQNp",
+    "collapsible_menu_iWgj4Q",
+    "contact_form_XYAmrT"
+  ]
+}

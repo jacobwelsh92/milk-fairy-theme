@@ -1,0 +1,289 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "separator_NTeEbK": {
+      "type": "separator",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "collapsible_menu_EKgAch": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_XLdWxb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does the process take?",
+            "content": "<p>Once your milk has been sent back to our facility, the typical turnaround time is 3-4 weeks. During this period, our dedicated team ensures that your breastmilk undergoes careful processing to meet the highest quality standards. We understand the importance of a timely and efficient process, and we strive to return your order to you as promptly as possible, all while maintaining the utmost care and quality in our procedures.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_8Lkqrt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I check the status of my order?",
+            "content": "<p>At The Milk Fairy, we prioritise keeping you informed about the status of your order every step of the way. You can expect to receive timely updates through both text messages and email notifications, ensuring that you’re always in the loop and have peace of mind regarding the location and progress of your precious breastmilk. For those who have opted for our GPS tracking option, you’ll have the added benefit of real-time visibility, allowing you to track your breastmilk’s journey and know exactly where it is at any given moment.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_49hnjj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "My breast milk has high lipase, and my infant refuses frozen milk. Will freeze-drying help?",
+            "content": "<p>Freeze-drying can be beneficial in many cases where milk tastes different after freezer storage. However, it is difficult to guarantee that the process will make the milk palatable again. This depends on the extent of lipase activity that has already occurred and the individual taste preferences of infants.</p><p>During freezer storage, the lipase enzyme remains active, but it is inactivated by the freeze-drying process. For mothers concerned about high lipase, freeze-drying can halt further lipase activity, although it cannot reverse any degradation that has already taken place. It is also important to note that if your infant refuses milk that was previously frozen, it does not necessarily indicate high lipase. The freeze/thaw process itself can alter the quality and taste of the milk.</p><p>Freeze-drying may help in this regard because the process allows water to transition directly from solid (ice) to gas (water vapour), bypassing the thawing stage and potentially preventing some changes associated with thawing. Overall, if your infant refuses your frozen milk, freeze-drying may be a viable option to consider.</p><h3></h3>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_WgUrVU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I be sure that the breast milk powder I receive is my own?",
+            "content": "<p>The Milk Fairy receives your frozen milk and does an initial quality control check. Then, each bag of milk is recorded in our system and labelled with your name and order number. Each order is processed individually, ensuring focused attention on one order at a time. Your breast milk then enters its very own private freeze-drying chamber.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_wMy7wx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long can my breast milk be stored in the freezer prior to freeze-drying?",
+            "content": "<p>We recommend storing breast milk in the freezer for no more than 12 months. While it doesn’t “expire” after 12 months, its nutrient retention gradually decreases over time. For more information, please refer to the CDC's breast milk storage guidelines.</p><p>For optimal quality, it’s best to freeze-dry your milk sooner rather than later. If you’re deciding between older and newer frozen milk to send for freeze-drying, choosing the older milk can prevent further nutrient degradation and extend its shelf life. Ultimately, the choice is personal, as these guidelines focus on maintaining the best quality and aligning with a newborn’s nutritional needs.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_YpUEAy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if my breast milk is frozen in bottles?",
+            "content": "<p>Unfortunately, we do not accept bottles. We only accept certified lactation bags. Acceptable brands include, but are not limited to, Medela and Lansinoh, Avent, Swisspers, Tommee Tippee, New Beginnings.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_cqjNwi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What size will my feeds be returned in?",
+            "content": "<p>We portion your breast milk powder into pouches that match what you originally provided — one lactation bag becomes one pouch of powder. Since breast milk is around 90% water, freeze-drying removes only the water molecules, leaving behind the solid nutrients. For example, 1 litre of breast milk yields about 100 grams of powder. To reconstitute, simply add back the same amount of water that was removed — this returns your milk to its original consistency. (This will be recorded on your personal pouch labels!)</p><p>If you’d like custom serving sizes, feel free to email us at <a><strong>orders@themilkfairy.com</strong></a> — we’re happy to help! </p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_cziATP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long will my breast milk last once freeze-dried?",
+            "content": "<p>Our process ensures your freeze-dried breast milk has a shelf life of up to 3 years from processing. Once you’ve opened a pouch, we recommend using the powder within a few days for best quality. If you are travelling to a very <strong>humid climate</strong>, let us know and we will add a moisture absorber to each pouch.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_KAMG8f": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "My breast milk powder looks clumpy, is this normal?",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_MtHPcX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When I rehydrate my breast milk, it is clumping, is this normal?",
+            "content": "<p><br/>Yes, a small amount of clumping can be normal when rehydrating freeze-dried breast milk. <br/><br/>Breast milk contains natural fats that can separate during the freeze-drying process and may not fully dissolve right away when water is added. To help it mix more smoothly:<br/><br/>1) Use warm (not hot) sterile water, around body temperature.<br/>2) Add the water slowly while gently swirling or stirring — avoid shaking, which can damage milk proteins.<br/> 3) Let it sit for a minute, then swirl again to allow the fats to fully dissolve.<br/><br/></p><p>If you're still noticing large clumps or anything unusual, feel free to reach out — we're here to help!</p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_XLdWxb",
+        "collapsible_tab_8Lkqrt",
+        "collapsible_tab_49hnjj",
+        "collapsible_tab_WgUrVU",
+        "collapsible_tab_wMy7wx",
+        "collapsible_tab_YpUEAy",
+        "collapsible_tab_cqjNwi",
+        "collapsible_tab_cziATP",
+        "collapsible_tab_KAMG8f",
+        "collapsible_tab_MtHPcX"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "separator_KJVexC": {
+      "type": "separator",
+      "settings": {
+        "heading": "Magic Warmie +",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "collapsible_menu_kLL3CW": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_Ygxrfg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I clean my Magic Warmie+?",
+            "content": "<p>Wash with warm, soapy water between uses (not dishwasher safe). Use the included bottle brush for a thorough clean. For quick cleans on the go, simply add warm water to loosen any residue, give it a quick rinse, then pour in a splash of <strong>3% food-grade hydrogen peroxide</strong>. Scrub thoroughly using the included bottle brush, let it sit for 1–2 minutes to naturally disinfect, then rinse well with clean water and leave to air dry with the lid off — no battery needed. Or use the self-sterilisation feature for a deeper clean when powered</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_fF8CiP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I charge my Magic Warmie+?",
+            "content": "<p>Please only use the charging cable provided. Avoid charging via laptops or ports exceeding 30W. Always refer to the instructions before charging.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_Ygxrfg",
+        "collapsible_tab_fF8CiP"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "grid_view_8Xztzd": {
+      "type": "grid-view",
+      "blocks": {
+        "image_6xNrUz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "Ok, awesome!",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "begin freeze-drying",
+            "button_disable_on_mobile": false,
+            "button_link": "shopify://collections/all",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "#191004",
+            "color-overlay-opacity": 35,
+            "desktop_image": "shopify://shop_images/freeze-dried-breast-milk-supports-immune-system.jpg",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        },
+        "image_GixMiL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "Still have more questions?",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Contact us",
+            "button_disable_on_mobile": false,
+            "button_link": "shopify://pages/contact",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "#000000",
+            "color-overlay-opacity": 35,
+            "desktop_image": "shopify://shop_images/baby-with-strong-immune-system-thanks-to-milk.jpg",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_6xNrUz",
+        "image_GixMiL"
+      ],
+      "settings": {
+        "title": "",
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "featured_navigation_tLUdJn": {
+      "type": "featured-navigation",
+      "settings": {
+        "heading": "",
+        "menu": "main-menu",
+        "desktop_placement": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "separator_NTeEbK",
+    "collapsible_menu_EKgAch",
+    "separator_KJVexC",
+    "collapsible_menu_kLL3CW",
+    "grid_view_8Xztzd",
+    "featured_navigation_tLUdJn"
+  ]
+}

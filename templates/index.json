@@ -1,0 +1,707 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_FtwAib": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G3WPaR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your Breast Milk. Freeze-Dried, Stress-Free.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_4nMyde": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Because mum-life is full on — storing your milk shouldn’t be. We collect your frozen breast milk, gently freeze-dry it, and send it back as shelf-stable powder — nutrient-rich, travel-ready, and entirely yours.<br/><br/></p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_LLViWb": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "learn how it works",
+            "button_link": "shopify://pages/how-our-breast-milk-freeze-drying-process-works",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_G3WPaR",
+        "text_4nMyde",
+        "button_LLViWb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_bPTeBT": {
+      "type": "features-banner",
+      "blocks": {
+        "image_UGTr9k": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "100% Your Breast Milk",
+            "text": "<p>Freeze-dried for convenience.</p>"
+          }
+        },
+        "image_ba8Efy": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "3 Year Shelf Life",
+            "text": "<p>Travel-friendly & Shelf Stable.</p>"
+          }
+        },
+        "image_ThyArN": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "Premium & Personalised",
+            "text": "<p>One Mama Per Chamber</p>"
+          }
+        },
+        "image_afBmdm": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "All Shipping Included",
+            "text": "<p>Express Overnight, Australia-wide</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_UGTr9k",
+        "image_ba8Efy",
+        "image_ThyArN",
+        "image_afBmdm"
+      ],
+      "name": "t:sections.features-banner.settings.presets.name",
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "1753577135c9b4fe92": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_with_image_RgNLeC": {
+      "type": "rich-text-with-image",
+      "blocks": {
+        "heading_p8TBAp": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "font_uppercase": "none",
+            "disable_on_mobile": false
+          }
+        },
+        "text_4gDxDL": {
+          "type": "text",
+          "settings": {
+            "text": "\"Nourishing little lives, supporting maternal freedom, and redefining what’s possible for the Modern Mama.\"",
+            "font_uppercase": "none",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "line_height": 1.5,
+            "picture1": "shopify://shop_images/IMG_5656.jpg",
+            "button_link1": "shopify://pages/milkfairy-breastmilk-warmer-and-thermos",
+            "picture2": "shopify://shop_images/DSC_7076_f1c64e54-66ce-472e-861b-382223ed685b.jpg",
+            "button_link2": "",
+            "button_link3": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_p8TBAp",
+        "text_4gDxDL"
+      ],
+      "name": "t:sections.rich-text-with-image.presets.name",
+      "settings": {
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "testimonials_AYfEe7": {
+      "type": "testimonials",
+      "blocks": {
+        "image_x9GiLJ": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>This service is AMAZING not only is the process super simple you are kept informed of the freeze drying process the whole way through via text & email which I absolutely loved. The final product was so convenient and easy to use especially while traveling. I will be using this service again & again. Thank you so much ladies for providing such an incredible service.</p>",
+            "desktop_image": "shopify://shop_images/3_035537ca-19cc-4311-a0bf-997680e1689d.png",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Erin D"
+          }
+        },
+        "image_7gGxmr": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>I wish this existed 10 years ago!</p><p>The process was super easy and stress-free, and communication was amazing from start to finish. I’m so happy I was able to turn my liquid gold into powdered gold before it expired. As a working mum, this is going to be a total game changer for day care! No more worrying about milk going to waste or juggling freezer bags. So grateful for this service!</p>",
+            "desktop_image": "shopify://shop_images/15cc484b-a137-4732-9b5a-4403200337eb.webp",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Brittnee B"
+          }
+        },
+        "image_KcxqQM": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>So easy to use when out and about</p><p>Thank you so much! My freeze dried milk arrived the other week and we have ready given it a go - so easy when out and about, and the pouches are a really handy size. I love that the life of my breastmilk has been extended, too.</p>",
+            "desktop_image": "shopify://shop_images/Screenshot_2025-06-18_at_8.46.15_am.png",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Dana S"
+          }
+        }
+      },
+      "block_order": [
+        "image_x9GiLJ",
+        "image_7gGxmr",
+        "image_KcxqQM"
+      ],
+      "name": "t:sections.testimonials.settings.presets.name",
+      "settings": {
+        "heading": "",
+        "image_shape": "natural",
+        "testimonial_text_size_desktop": 100,
+        "testimonial_text_size": 100,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_3qzUt4": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_QzDLNg": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_Hf8N4r": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose your kit. We’ll collect, freeze-dry, and send it back as a powder.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_YaxnBM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong><br/></strong>We turn your liquid gold into shelf-stable powder — so you get the convenience of formula, without losing the goodness of breast milk.<br/><br/><strong>We’re the only freeze-drying service in Australia that gives your breast milk its own private chamber — never mixed, never mass-processed. Just your milk, for your baby.</strong><br/><br/>From the moment it leaves your hands to the moment it returns home, every step is designed to protect every drop. Your milk is stored separately, processed individually, and packaged just for you — with the care it deserves.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_TxR7cx": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Shop Shipping kits",
+            "button_link": "shopify://products/breast-milk-freeze-drying-service-shipping-kit-send-my-milk",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QzDLNg",
+        "heading_Hf8N4r",
+        "text_YaxnBM",
+        "button_TxR7cx"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/2_e87e4db4-e0c0-48f6-bb61-bf0fe2863c70.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "custom_liquid_NN6jBX": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "/<div class=\"stats-container\">\n  <div class=\"stat-block\">\n    <h2>810KG</h2>\n    <p>of Breast Milk<br>Freeze-Dried</p>\n  </div>\n  <div class=\"stat-block\">\n    <h2>20M</h2>\n    <p>Magic Moments<br>Created</p>\n  </div>\n  <div class=\"stat-block\">\n    <h2>290k</h2>\n    <p>Minutes Saved <br>Warming Milk</p>\n  </div>\n  <div class=\"stat-block\">\n    <h2>30.5k</h2>\n    <p>Night Time Feeds <br> Made Easier</p>\n  </div>\n</div>\n\n<style>\n  .stats-container {\n    display: flex;\n    justify-content: space-around;\n    flex-wrap: wrap;\n    gap: 2rem;\n    padding: 2rem;\n    text-align: center;\n  }\n\n  .stat-block {\n    flex: 1 1 200px;\n  }\n\n  @media (max-width: 768px) {\n    .stats-container {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .stat-block {\n      width: 100%;\n    }\n  }\n</style>"
+      }
+    },
+    "separator_tY4q7d": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "heading": "",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "featured_collection_DWHdPj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "disable_on_mobile": false,
+        "collection": "best-sellers",
+        "products_to_show": 3,
+        "show_view_all": true,
+        "button_select": "primary",
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "24",
+        "make_products_full_width": true,
+        "number_of_column_mobile": 2.1,
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_product_rating": true,
+        "enable_quick_add_button": true,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "video_reels_b4iFae": {
+      "type": "video-reels",
+      "blocks": {
+        "product_7z6VAT": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_6780_35d21bc4-2091-467f-8f08-8ad38ae8a213.MOV",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_apEz8e": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_3873.MOV",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_hqTPmA": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/14dcde49413b49249949e6fa82934fbf.MP4",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_Ux8WKn": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_6798.mov",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        }
+      },
+      "block_order": [
+        "product_7z6VAT",
+        "product_apEz8e",
+        "product_hqTPmA",
+        "product_Ux8WKn"
+      ],
+      "name": "t:sections.shoppable-video-reels.name",
+      "settings": {
+        "heading": "",
+        "quick-add-enabled": false,
+        "hide-brand-name": true,
+        "video_button": true,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_ggEtzQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_CDqhKr": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_cpA7DK": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is freeze-drying?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_fRN8WW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Freeze-drying is a gentle method of preservation that removes only the water — nothing is ever added to your breast milk. This process locks in the nutrients, antibodies, and goodness, so your milk stays just as powerful as the day you pumped it. It’s long-term storage and on-the-go convenience, without compromise.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_UBmbk6": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "learn more",
+            "button_link": "shopify://pages/how-our-breast-milk-freeze-drying-process-works",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_CDqhKr",
+        "heading_cpA7DK",
+        "text_fRN8WW",
+        "button_UBmbk6"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/4_dfc1597e-d1cc-4071-9f0a-5f8462e8d3dd.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "parallax_CThY6n": {
+      "type": "parallax",
+      "blocks": {
+        "heading_7UBrqk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_VxVmJr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re Jess, Tiana and Chris — we are a family run, mama-led business, we are parents, and believers in making motherhood just a little bit easier. The Milk Fairy started the way a lot of brilliant things do: in the thick of mum-life, half-asleep, milk-stained, experiencing the struggles of  travelling with breast milk and wondering <em>\"surely there’s a better way?</em></p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_CPwTKy": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "read on",
+            "button_link": "shopify://pages/about-us",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7UBrqk",
+        "text_VxVmJr",
+        "button_CPwTKy"
+      ],
+      "name": "t:sections.parallax-section.settings.presets.name",
+      "settings": {
+        "desktop_text_horizontal_position": "center",
+        "rotation": 5,
+        "image_1": "shopify://shop_images/ALCA1471.jpg",
+        "button_link1": "",
+        "image_2": "shopify://shop_images/ACC_9991.jpg",
+        "button_link2": "",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "brands_UzCrDw": {
+      "type": "brands",
+      "blocks": {
+        "image_EpJfFR": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/TNP-Masthead-Logo2.png",
+            "link": "https://thenaturalparentmagazine.com/the-milk-fairy-preserving-nourishment-empowering-mothers/"
+          }
+        },
+        "image_bnpAFy": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Loved_by_1.png",
+            "link": "https://www.instagram.com/p/DFV0FvDTfzK/?hl=en"
+          }
+        },
+        "image_Ac9tr9": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Loved_by_3.png",
+            "link": "https://villageformama.com/postpartum-stories-tiana-the-milk-fairy/"
+          }
+        },
+        "image_rbzyyg": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Loved_by_4.png",
+            "link": "https://cryodry.biz/2024/09/the-cd8-safeguards-milk-fairys-precious-breast-milk-samples-during-storm/"
+          }
+        }
+      },
+      "block_order": [
+        "image_EpJfFR",
+        "image_bnpAFy",
+        "image_Ac9tr9",
+        "image_rbzyyg"
+      ],
+      "name": "t:sections.brands.settings.presets.name",
+      "settings": {
+        "heading": "",
+        "animation": "marquee",
+        "animation_speed": "100",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_VFyiVL": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_tWLiG3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_w4CADB": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE MILK LAB",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_ywEyW3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Geelong, just an hour from Greater Melbourne, is home to our headquarters. <br/><br/>From here, we receive frozen and send back our freeze-dried breast milk, serving families across Australia.<br/><br/></p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_ACnRfp": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "See more",
+            "button_link": "shopify://pages/our-facility",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tWLiG3",
+        "heading_w4CADB",
+        "text_ywEyW3",
+        "button_ACnRfp"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#ffffff",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "#ffffff",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/milk_fairy_team_in_pink_scrubs_cleaning_freeze_dryer_machine.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/milk_fairy_staff_wearing_pink_scrubs_cleaning_freeze_dryer.jpg",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 52
+      }
+    },
+    "blog_posts_aFn6jX": {
+      "type": "blog-posts",
+      "settings": {
+        "heading": "",
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "blog": "read",
+        "post_limit": 3,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "view_all_button_select": "link",
+        "show_image": true,
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "button_select": "primary",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "1735511379aff9706f": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_bN4VJF": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "@themilkfairy",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_bN4VJF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "newsletter_i8q83Y": {
+      "type": "newsletter",
+      "blocks": {
+        "paragraph_MzEAAr": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<h3><strong>Let's be breast friends. </strong><br/><br/>Join our VIP list for announcements and exclusive offers.</h3>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_RWKtAi": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_MzEAAr",
+        "email_form_RWKtAi"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    }
+  },
+  "order": [
+    "rich_text_FtwAib",
+    "features_banner_bPTeBT",
+    "1753577135c9b4fe92",
+    "rich_text_with_image_RgNLeC",
+    "testimonials_AYfEe7",
+    "image_with_text_3qzUt4",
+    "custom_liquid_NN6jBX",
+    "separator_tY4q7d",
+    "featured_collection_DWHdPj",
+    "video_reels_b4iFae",
+    "image_with_text_ggEtzQ",
+    "parallax_CThY6n",
+    "brands_UzCrDw",
+    "image_with_text_VFyiVL",
+    "blog_posts_aFn6jX",
+    "1735511379aff9706f",
+    "newsletter_i8q83Y"
+  ]
+}

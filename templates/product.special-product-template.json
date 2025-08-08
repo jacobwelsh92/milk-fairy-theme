@@ -1,0 +1,598 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "settings": {
+        "full-width-enabled": true,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 8,
+        "margin-bottom": 8
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "brand": "Magic Warmie+ Luxury Portable Milk Warmer & Thermos",
+            "size_text": 210,
+            "size_text_mobile": 200
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_included": true,
+            "size_text": 130,
+            "size_text_mobile": 120
+          }
+        },
+        "afterpay_on_site_messaging_payments_messaging_6GQ7Ee": {
+          "type": "shopify://apps/afterpay-on-site-messaging/blocks/payments-messaging/f45a5524-d177-4475-bf59-281efd2215a8",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "md",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true,
+            "product": "{{product}}"
+          }
+        },
+        "okendo_star_rating_DCKpTr": {
+          "type": "shopify://apps/okendo/blocks/star-rating/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "text_xmbXQC": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "content": "<p>★★★★★ “This thing is a total lifesaver. The Magic Warmie + makes warming bottles so quick and easy. No cords, no microwave, no stress. I use it for both formula and pumped milk, and it works perfectly every time. Super handy when we’re out and about too. Honestly, it’s made night feeds way less hectic - Matt H (Verified Review)</p>",
+            "page": ""
+          }
+        },
+        "bulletpoints_U4hc3E": {
+          "type": "bulletpoints",
+          "settings": {
+            "metafield": "",
+            "default_text": "Lead-Free. Microplastic-Free. Sustainably Designed.\nWarms Milk in 1-3 Minutes (Bottle Ready in 90 Seconds)\nUse Anytime, Anywhere\n24 Hour Battery Life\nSelf Sterilising Stainless Steel\nFREE brush & organic cleaner for quick, battery-free cleaning on the go.\n30-Day money back guarantee"
+          }
+        },
+        "separator_RrKQ4A": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_swatch_names": "",
+            "variant_picture_swatch_names": "",
+            "dropdown_swatch_names": "",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 16
+          }
+        },
+        "inventory_JWQnXt": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 42,
+            "show_inventory_quantity": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "show_qty_selector": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_open": true,
+            "icon": "none"
+          }
+        },
+        "bulletpoints_taXYMY": {
+          "type": "bulletpoints",
+          "disabled": true,
+          "settings": {
+            "metafield": "",
+            "default_text": "Standard Shipping included.\nSeamless Integration: Works perfectly with our freeze-dried milk sachets.\nAustralian-Made Quality: Designed and tested for local mums' needs."
+          }
+        },
+        "share_buttons_Ct9CXx": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+            "heading": "Share",
+            "social_facebook_link": true,
+            "social_twitter_link": true,
+            "social_pinterest_link": true,
+            "mail_link": true
+          }
+        },
+        "upsell_7cNJK3": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "heading": "Add 2L breast milk freeze-drying kit to your order?",
+            "product_upsell": [
+              "breast-milk-freeze-drying-service-shipping-kit-send-my-milk"
+            ],
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
+        "price",
+        "afterpay_on_site_messaging_payments_messaging_6GQ7Ee",
+        "okendo_star_rating_DCKpTr",
+        "text_xmbXQC",
+        "bulletpoints_U4hc3E",
+        "separator_RrKQ4A",
+        "variant_picker",
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
+        "inventory_JWQnXt",
+        "buy_buttons",
+        "description",
+        "bulletpoints_taXYMY",
+        "share_buttons_Ct9CXx",
+        "upsell_7cNJK3"
+      ],
+      "settings": {
+        "full-width-enabled": true,
+        "desktop-media-size": "normal",
+        "desktop-layout": "carousel-horizontal",
+        "desktop-image-ratio": "square",
+        "enable_video_looping": true,
+        "enable-image-zoom": true,
+        "mobile-image": "small",
+        "margin-top": 12,
+        "margin-bottom": 0
+      }
+    },
+    "button_P7xGiR": {
+      "type": "button",
+      "name": "t:sections.button.presets.name",
+      "settings": {
+        "button_select": "primary",
+        "button_horizontal_position": "center",
+        "button_label": "learn more",
+        "button_link": "shopify://pages/milkfairy-breastmilk-warmer-and-thermos",
+        "margin-top": 20,
+        "margin-bottom": 20,
+        "background_color": "transparent"
+      }
+    },
+    "video_reels_4gMnxy": {
+      "type": "video-reels",
+      "blocks": {
+        "product_ewiwUB": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/fridgefirst.mov",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_iCnqjr": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/24D435AE-ECF2-43BF-92BC-7D3A7AAE8FF1 2.MOV",
+            "featured_product": "products-freedom-feeding-bundle-portable-milk-warmer-thermos-2l-freeze-drying-kit"
+          }
+        },
+        "product_jUKJLE": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_3873.MOV",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_FayVRk": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/14dcde49413b49249949e6fa82934fbf.MP4",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_4CRpKM": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_6798.mov",
+            "featured_product": "breast-milk-freeze-drying-service-shipping-kit-send-my-milk"
+          }
+        },
+        "product_qXQzCL": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/copy_E64E7EDC-A321-463F-A6C4-16B5F1169162.MOV",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        }
+      },
+      "block_order": [
+        "product_ewiwUB",
+        "product_iCnqjr",
+        "product_jUKJLE",
+        "product_FayVRk",
+        "product_4CRpKM",
+        "product_qXQzCL"
+      ],
+      "name": "t:sections.shoppable-video-reels.name",
+      "settings": {
+        "heading": "",
+        "quick-add-enabled": false,
+        "hide-brand-name": false,
+        "video_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "17365694325a6ca34f": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_PQ3Vh3": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_PQ3Vh3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_menu_FUEDVw": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_ywcCBd": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "What's included?",
+            "content": "<ul><li><strong>Portable Milk Warmer & Thermos</strong> – Fill with sterilised water or breast milk, set your desired temperature on the built-in display, and enjoy perfectly warmed feeds in just 1–3 minutes.</li><li><strong>2L Freeze-Drying Kit</strong> – We send you everything you need to safely ship your frozen milk to our certified facility. Your milk is then gently freeze-dried in its own dedicated chamber, sealed into shelf-stable sachets, and delivered back to your door — no freezer needed.</li></ul>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_RYyaaL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Features",
+            "content": "<p><strong>3-in-1 Functionality</strong>: Warms, keeps warm, and sterilises — no extra gear needed.<br/><br/><strong>Heats in under 3 minutes</strong> — no more waiting with a crying baby in your arms.<br/><br/><strong>5,000mAh Battery</strong>: Heats up to 6 bottles on a single charge.<br/><br/><strong>Large 500ml Capacity</strong>: Enough for a full day of feeds.<br/><br/><strong>20 Adjustable Temperature Settings (35–55°C)</strong> with high-precision sensor.<br/><br/><strong>Safe by design</strong>: Anti burn protection + tight seal, leak-proof lid.<br/><br/><strong>Self-sterilising</strong>: One-button clean so you don’t have to think about it.<br/><br/><strong>Sleek LED Touch Display</strong>: Easy to use even at 2am.<br/><br/><strong>Travel-friendly</strong> and compact — fits perfectly in your nappy bag.<br/><br/><strong>360° Heating Plate</strong>: Even, gentle warming without hot spots (protects nutrients in breast milk + formula).<br/><br/><strong>Made with 7-layer medical-grade stainless steel</strong> for unmatched heat retention.<br/><br/><strong>Australian Standard Certified</strong> for peace of mind.</p><p>From formula to freeze-dried milk to fresh — this warmer does it all.</p><p><strong>No guesswork. No cords. No compromises.</strong><br/><br/>Just warm, ready-to-feed bottles… anytime, anywhere.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_EM3d9p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits",
+            "content": "<p><strong>Say goodbye to the microwave. And the mess.</strong></p><p>No more lugging kettles. No more bulky plug-in warmers.<br/><br/>Just warm, ready-to-go bottles — anytime, anywhere.</p><p>The <strong>Milk Fairy Portable Warmer + Thermos</strong> was designed to make feeding simpler, faster, and safer — whether you're at the park, on a plane, or up for a 3am feed.</p><p><strong>Here’s why mums are making the switch:</strong></p><p><strong>Feeds in 90 seconds</strong> — because babies don’t wait.<br/><br/><strong>Precise temperature control</strong> — warms water or milk to 37–55°C without overheating.<br/><br/><strong>Protects nutrients</strong> in breast milk and formula — no boiling, no microwave hot spots.<br/><br/><strong>Portable + lightweight</strong> — fits in your nappy bag, no cords or bulky gear needed.<br/><br/><strong>Self-sterilising</strong> — one press of a button keeps things clean.<br/><br/><strong>Long battery life</strong> — up to 24 hours on thermos mode + USB-C fast charging.</p><p>Whether you're using freeze-dried breast milk, fresh milk, or formula — this is the only warmer you'll ever need.</p><p><strong>Bonus:</strong> Each warmer comes with a <strong>bottle brush + 100ml of 3% food-grade hydrogen peroxide</strong> to make on-the-go cleaning easy. See FAQs for how.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_Nx3KWw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p><strong>Material:</strong>  Made from durable Medical Grade 316 Stainless Steel — built for safety, longevity, and exceptional heat retention.</p><p><strong>Battery Capacity</strong>: Equipped with 4 high-efficiency power cells (totalling 10,000 mAh), our warmer is engineered for balanced, safe, and consistent heating — without bulk or overheating risk.</p><p><strong>Capacity:</strong> 500ml — perfect for all-day feeding on the go.</p><p><strong>Charging Options:</strong> USB (5V/2A) & DC (36W) — flexible charging wherever you are.</p><p><strong>Dimensions:</strong> 20cm x 6cm</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_jMjBB6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to make a bottle",
+            "content": "<p>Watch It In Action<br/><a href=\"https://www.instagram.com/p/DJsyX-bTe1a/\" target=\"_blank\">Tap here to view the video on Instagram</a><br/>  </p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_3ndGMU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "content": "<p><strong>Enjoy complimentary standard delivery (3–6 days).</strong></p><p>Want it faster? <strong>FedEx</strong> <strong>Overnight</strong> <strong>Express next-day shipping</strong> available at checkout.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_ywcCBd",
+        "collapsible_tab_RYyaaL",
+        "collapsible_tab_EM3d9p",
+        "collapsible_tab_Nx3KWw",
+        "collapsible_tab_jMjBB6",
+        "collapsible_tab_3ndGMU"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "collage_nWP7JM": {
+      "type": "collage",
+      "blocks": {
+        "image_GjJzJU": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "desktop_image": "shopify://shop_images/DSC_7180.jpg",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center",
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 100
+          }
+        },
+        "image_9nnQUE": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "desktop_image": "shopify://shop_images/DSC07072.jpg",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center",
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 100
+          }
+        },
+        "image_LeMr4T": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "desktop_image": "shopify://shop_images/DSC07172.jpg",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center",
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_GjJzJU",
+        "image_9nnQUE",
+        "image_LeMr4T"
+      ],
+      "custom_css": [],
+      "name": "t:sections.collage.settings.presets.name",
+      "settings": {
+        "heading": "The only portable milk warmer and thermos made just for breast milk — designed to gently warm pumped milk, and rehydrate without freeze-dried breast milk, without compromising all the goodness inside.\n\nPurposeful. Protective. Mama-approved.",
+        "full-width-enabled": false,
+        "desktop_layout": "row",
+        "color-body-text": "#191004",
+        "background_color": "#ffffff",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_yNXUgc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UH6pL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "We've tried them all so you don't have to...",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_Wanj7C": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>We searched high and low for a portable milk warmer that ticked all the boxes — safe, fast, and actually designed with breastfeeding mums in mind. But it didn’t exist. So we made it. The Magic Warmie+ is the world’s first stainless steel, microplastic and lead-free portable warmer + thermos, purpose-built for freeze-dried, frozen and fresh breast milk. <br/><br/>It’s the fastest on the market and the only one designed to meet the needs of pumping and breastfeeding mums. Feeding on-the-go just levelled up. </p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UH6pL6",
+        "text_Wanj7C"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_FCkBgt": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/Magic_Warmie_ADS_REEL_SIZE_1080_x_1920_px_Website.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/us_vs_them_magic_warmie_plus_long.jpg",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "newsletter_pEcrBa": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_mLFMeW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's become breast friends?",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_d8VNPK": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_gTPAyG": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mLFMeW",
+        "paragraph_d8VNPK",
+        "email_form_gTPAyG"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    },
+    "1749444731049a00f3": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "button_P7xGiR",
+    "video_reels_4gMnxy",
+    "17365694325a6ca34f",
+    "collapsible_menu_FUEDVw",
+    "collage_nWP7JM",
+    "rich_text_yNXUgc",
+    "image_with_text_FCkBgt",
+    "newsletter_pEcrBa",
+    "1749444731049a00f3"
+  ]
+}

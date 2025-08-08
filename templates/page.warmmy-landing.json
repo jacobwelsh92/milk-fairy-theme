@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero": {
+      "type": "magic-warmmy-hero",
+      "settings": {}
+    },
+    "problem": {
+      "type": "magic-warmmy-problem", 
+      "settings": {}
+    },
+    "solution": {
+      "type": "magic-warmmy-solution",
+      "settings": {}
+    },
+    "testimonials": {
+      "type": "magic-warmmy-testimonials",
+      "settings": {}
+    },
+    "comparison": {
+      "type": "magic-warmmy-comparison",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "problem",
+    "solution",
+    "testimonials",
+    "comparison"
+  ]
+}

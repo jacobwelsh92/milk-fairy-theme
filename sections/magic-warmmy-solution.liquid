@@ -1,0 +1,473 @@
+{% comment %}
+  The Solution - Show How Magic Warmmy Works
+  Visual demonstration with clear benefits
+{% endcomment %}
+
+<style>
+  .warmmy-solution {
+    padding: 80px 0;
+    background: linear-gradient(180deg, #fff 0%, #fff7e2 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .warmmy-solution::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(245,178,185,0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  
+  .warmmy-solution-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .warmmy-solution-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .warmmy-solution-badge {
+    display: inline-block;
+    background: #f5b2b9;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .warmmy-solution-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: #191004;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .warmmy-solution-subtitle {
+    font-size: 18px;
+    color: #3d2522;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .warmmy-demo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .warmmy-demo-video {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+  }
+  
+  .warmmy-demo-video video {
+    width: 100%;
+    display: block;
+  }
+  
+  .warmmy-demo-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+  
+  .warmmy-demo-play:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  .warmmy-demo-play svg {
+    width: 30px;
+    height: 30px;
+    fill: #f5b2b9;
+    margin-left: 5px;
+  }
+  
+  .warmmy-demo-content {
+    padding: 20px;
+  }
+  
+  .warmmy-steps {
+    margin-bottom: 40px;
+  }
+  
+  .warmmy-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .warmmy-step:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transform: translateX(10px);
+  }
+  
+  .warmmy-step-number {
+    width: 40px;
+    height: 40px;
+    background: #f5b2b9;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  
+  .warmmy-step-content {
+    flex: 1;
+  }
+  
+  .warmmy-step-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191004;
+    margin-bottom: 5px;
+  }
+  
+  .warmmy-step-text {
+    font-size: 14px;
+    color: #3d2522;
+    line-height: 1.5;
+  }
+  
+  .warmmy-step-time {
+    display: inline-block;
+    background: #fff7e2;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #f5b2b9;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  
+  .warmmy-features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .warmmy-feature {
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .warmmy-feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  }
+  
+  .warmmy-feature-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f5b2b9 0%, #ffc4ca 100%);
+    border-radius: 50%;
+  }
+  
+  .warmmy-feature-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: white;
+  }
+  
+  .warmmy-feature-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #191004;
+    margin-bottom: 8px;
+  }
+  
+  .warmmy-feature-text {
+    font-size: 13px;
+    color: #3d2522;
+    line-height: 1.4;
+  }
+  
+  .warmmy-guarantee {
+    background: white;
+    border: 2px solid #f5b2b9;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .warmmy-guarantee-seal {
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    background: #f5b2b9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-15deg);
+    box-shadow: 0 5px 20px rgba(245,178,185,0.3);
+  }
+  
+  .warmmy-guarantee-seal svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+  }
+  
+  .warmmy-guarantee-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #191004;
+    margin-bottom: 15px;
+  }
+  
+  .warmmy-guarantee-text {
+    font-size: 16px;
+    color: #3d2522;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .warmmy-guarantee-button {
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .warmmy-guarantee-button:hover {
+    background: #f5b2b9;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    .warmmy-solution {
+      padding: 60px 0;
+    }
+    
+    .warmmy-solution-title {
+      font-size: 32px;
+    }
+    
+    .warmmy-demo {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    
+    .warmmy-features-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    
+    .warmmy-guarantee {
+      padding: 30px 20px;
+    }
+  }
+</style>
+
+<section class="warmmy-solution" id="solution">
+  <div class="warmmy-solution-container">
+    <div class="warmmy-solution-header">
+      <span class="warmmy-solution-badge">The Game Changer</span>
+      <h2 class="warmmy-solution-title">Meet Your 2am Saviour</h2>
+      <p class="warmmy-solution-subtitle">
+        Watch how Magic Warmmy turns midnight chaos into peaceful moments in just 60 seconds
+      </p>
+    </div>
+    
+    <div class="warmmy-demo">
+      <div class="warmmy-demo-video">
+        <video id="demo-video" poster="{{ 'warmmy-demo-poster.jpg' | asset_url }}" controls>
+          <source src="{{ 'warmmy-demo.mp4' | asset_url }}" type="video/mp4">
+          <img src="{{ 'IMG_3163.webp' | asset_url }}" alt="Magic Warmmy Demo">
+        </video>
+        <div class="warmmy-demo-play" onclick="playVideo()">
+          <svg viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-demo-content">
+        <div class="warmmy-steps">
+          <div class="warmmy-step">
+            <div class="warmmy-step-number">1</div>
+            <div class="warmmy-step-content">
+              <h3 class="warmmy-step-title">
+                Pour & Press
+                <span class="warmmy-step-time">5 seconds</span>
+              </h3>
+              <p class="warmmy-step-text">
+                Simply pour cold milk or water into Magic Warmmy and press the button. No setup, no waiting.
+              </p>
+            </div>
+          </div>
+          
+          <div class="warmmy-step">
+            <div class="warmmy-step-number">2</div>
+            <div class="warmmy-step-content">
+              <h3 class="warmmy-step-title">
+                Silent Warming
+                <span class="warmmy-step-time">60 seconds</span>
+              </h3>
+              <p class="warmmy-step-text">
+                Our patented technology warms to the perfect 37°C (body temperature) completely silently. Baby stays asleep.
+              </p>
+            </div>
+          </div>
+          
+          <div class="warmmy-step">
+            <div class="warmmy-step-number">3</div>
+            <div class="warmmy-step-content">
+              <h3 class="warmmy-step-title">
+                Feed & Relax
+                <span class="warmmy-step-time">Happy baby</span>
+              </h3>
+              <p class="warmmy-step-text">
+                Perfect temperature every time. No hot spots. No crying. Just peaceful feeding and back to sleep.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="warmmy-features-grid">
+      <div class="warmmy-feature">
+        <div class="warmmy-feature-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+          </svg>
+        </div>
+        <h3 class="warmmy-feature-title">60 Second Magic</h3>
+        <p class="warmmy-feature-text">
+          Fastest warming technology available. Period.
+        </p>
+      </div>
+      
+      <div class="warmmy-feature">
+        <div class="warmmy-feature-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"/>
+          </svg>
+        </div>
+        <h3 class="warmmy-feature-title">Whisper Quiet</h3>
+        <p class="warmmy-feature-text">
+          Completely silent operation won't wake anyone
+        </p>
+      </div>
+      
+      <div class="warmmy-feature">
+        <div class="warmmy-feature-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </div>
+        <h3 class="warmmy-feature-title">Perfect Temperature</h3>
+        <p class="warmmy-feature-text">
+          37°C every time - exactly body temperature
+        </p>
+      </div>
+      
+      <div class="warmmy-feature">
+        <div class="warmmy-feature-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+          </svg>
+        </div>
+        <h3 class="warmmy-feature-title">Travel Ready</h3>
+        <p class="warmmy-feature-text">
+          USB rechargeable - works in cars, planes, anywhere
+        </p>
+      </div>
+    </div>
+    
+    <div class="warmmy-guarantee">
+      <div class="warmmy-guarantee-seal">
+        <svg viewBox="0 0 24 24">
+          <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+        </svg>
+      </div>
+      <h3 class="warmmy-guarantee-title">30-Night Peace of Mind Promise</h3>
+      <p class="warmmy-guarantee-text">
+        Try Magic Warmmy for 30 nights. If it doesn't transform your feeding routine, 
+        we'll refund every cent. No questions, no hassle, just your money back.
+      </p>
+      <a href="#" class="warmmy-guarantee-button" onclick="addToCart()">
+        Claim Yours Risk-Free
+      </a>
+    </div>
+  </div>
+</section>
+
+<script>
+  function playVideo() {
+    const video = document.getElementById('demo-video');
+    const playButton = document.querySelector('.warmmy-demo-play');
+    video.play();
+    playButton.style.display = 'none';
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Magic Warmmy Solution",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Magic Warmmy Solution"
+    }
+  ]
+}
+{% endschema %}

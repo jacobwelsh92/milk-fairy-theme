@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your Baby's Milk, Perfect Temperature, in 60 Seconds",
+            "size_heading": 140,
+            "size_heading_mobile": 100
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>It's 2:47am. Your baby is crying. You need milk warmed NOW.</strong><br/><br/>No more stumbling to the kitchen. No more waiting while baby screams. Just 60 seconds of complete silence, and perfect 37°C milk every single time.<br/><br/>Join 5,000+ Aussie mums who got their nights back.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Magic Warmmy for $199 (Save $21 Today)",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle"
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits": {
+      "type": "multicolumn",
+      "blocks": {
+        "benefit1": {
+          "type": "column",
+          "settings": {
+            "title": "⏱️ 60 Seconds Flat",
+            "text": "<p>From cold to perfect body temperature. Faster than any other warmer on the market.</p>"
+          }
+        },
+        "benefit2": {
+          "type": "column",
+          "settings": {
+            "title": "🤫 Completely Silent",
+            "text": "<p>No beeping, no humming. Your partner won't even know you're up.</p>"
+          }
+        },
+        "benefit3": {
+          "type": "column",
+          "settings": {
+            "title": "🚗 Works Anywhere",
+            "text": "<p>USB rechargeable. Perfect for cars, planes, parks, or grandma's house.</p>"
+          }
+        }
+      },
+      "block_order": ["benefit1", "benefit2", "benefit3"],
+      "settings": {
+        "title": "Why Mums Choose Magic Warmmy",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Real Stories from Real Mums",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>\"Game changer! 60 seconds of silence instead of 10 minutes of screaming.\"</strong><br/>- Sarah M., Brisbane ⭐⭐⭐⭐⭐<br/><br/><strong>\"Finally sleeping through feeds again. Worth every single cent.\"</strong><br/>- Jessica T., Sydney ⭐⭐⭐⭐⭐<br/><br/><strong>\"Perfect for car trips! No more stopping to warm bottles.\"</strong><br/>- Rachel C., Melbourne ⭐⭐⭐⭐⭐</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join 5,000+ Happy Customers",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "guarantee": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "30-Night Peace of Mind Promise",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Try Magic Warmmy for 30 nights. If it doesn't transform your feeding routine, we'll refund every cent. No questions, no hassle.<br/><br/>✅ Free Express Shipping Australia-Wide<br/>✅ 30-Night Money Back Guarantee<br/>✅ 12-Month Warranty<br/>✅ Aussie Customer Support</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "final_cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Your Sleep Back Tonight",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LIMITED TIME: Save $21 - Only $199 (Usually $220)</strong></p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "YES! I Want Better Nights →",
+            "button_link": "/products/milk-fairy-portable-milk-warmer-bottle",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "benefits",
+    "testimonials",
+    "guarantee",
+    "final_cta"
+  ]
+}

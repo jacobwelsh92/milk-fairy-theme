@@ -1,0 +1,401 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "settings": {
+        "full-width-enabled": true,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 8,
+        "margin-bottom": 8
+      }
+    },
+    "1749696413e5d52c47": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "brand": "{{ product.vendor }}",
+            "size_text": 210,
+            "size_text_mobile": 200
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_included": true,
+            "size_text": 130,
+            "size_text_mobile": 120
+          }
+        },
+        "separator_RrKQ4A": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_swatch_names": "",
+            "variant_picture_swatch_names": "",
+            "dropdown_swatch_names": "",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "bulletpoints_taXYMY": {
+          "type": "bulletpoints",
+          "settings": {
+            "metafield": "",
+            "default_text": "Each Shipping Kit includes courier pickup, full processing service, and return delivery."
+          }
+        },
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 16
+          }
+        },
+        "inventory_JWQnXt": {
+          "type": "inventory",
+          "settings": {
+            "inventory_threshold": 42,
+            "show_inventory_quantity": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "show_qty_selector": true
+          }
+        },
+        "afterpay_on_site_messaging_payments_messaging_iUcVVW": {
+          "type": "shopify://apps/afterpay-on-site-messaging/blocks/payments-messaging/f45a5524-d177-4475-bf59-281efd2215a8",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "md",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true,
+            "product": "{{product}}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_open": true,
+            "icon": "none"
+          }
+        },
+        "a05fcf3e-8e1a-4f1f-8d97-2055eb17138d": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#dedede",
+            "margin-top": 0,
+            "margin-bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
+        "price",
+        "separator_RrKQ4A",
+        "variant_picker",
+        "bulletpoints_taXYMY",
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
+        "inventory_JWQnXt",
+        "buy_buttons",
+        "afterpay_on_site_messaging_payments_messaging_iUcVVW",
+        "description",
+        "a05fcf3e-8e1a-4f1f-8d97-2055eb17138d"
+      ],
+      "settings": {
+        "full-width-enabled": true,
+        "desktop-media-size": "normal",
+        "desktop-layout": "carousel-vertical",
+        "desktop-image-ratio": "square",
+        "enable_video_looping": true,
+        "enable-image-zoom": true,
+        "mobile-image": "small",
+        "margin-top": 12,
+        "margin-bottom": 0
+      }
+    },
+    "collapsible_menu_DQidbh": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_4am74V": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Does It Work?",
+            "content": "<p>Once you book, we send you a pre-paid shipping kit with everything you need to send your frozen breast milk to our Victorian facility. From there, we freeze-dry your milk in a dedicated, one-mama-only chamber — one batch, one mother at a time — to ensure purity and safety.</p><p>Your milk is then sealed into shelf-stable sachets and delivered back to your door, ready to use whenever you need. No freezer required. Just freedom, flexibility, and peace of mind.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_wEFTjb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Using Freeze-dried Breast Milk",
+            "content": "<p>Up to 87% of breast milk is water — our freeze-drying process simply removes it, essentially creating your own breast milk formula. When you’re ready to feed, just add your sterilised warm water using the Milk Warmer & Thermos to instantly reconstitute your milk, making feeding on-the-go effortless and safe.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_iaQgUL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits of using The Milk Fairy",
+            "content": "<ul><li><strong>Preserves your breast milk for years</strong>, not months — without needing a freezer</li><li><strong>Locks in nutrients, antibodies, and enzymes</strong> through gentle freeze-drying</li><li><strong>Perfect for travel, daycare, or future use</strong> — just add warm (filtered & sterilised) water to reconstitute</li><li><strong>One mama, one chamber</strong> — your milk is processed separately to avoid cross-contamination</li><li><strong>Saves precious milk</strong> that might otherwise go to waste during oversupply or weaning</li><li><strong>Ideal for mixed feeding or back-to-work mums</strong> who want to keep offering breast milk</li><li><strong>Convenient sachets</strong> are lightweight, compact, and mess-free</li><li><strong>Small, boutique operation for safety and quality</strong>, handled by a certified team</li><li><strong>Supports breastfeeding longer</strong>, even if nursing stops earlier than planned</li></ul><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><p><br/></p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_4am74V",
+        "collapsible_tab_wEFTjb",
+        "collapsible_tab_iaQgUL"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_wiKkaQ": {
+      "type": "features-banner",
+      "blocks": {
+        "image_P4yL64": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "All Shipping Included",
+            "text": "<p><br/>A Milk Fairy shipping kit is delivered to you via Australia Post or FedEx. Return your milk to us with the included <strong>FedEx Priority Overnight</strong> label. Once processed, your completed order is sent back to you via Australia Post or FedEx\"</p>"
+          }
+        },
+        "image_m7jjzm": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "Text Updates",
+            "text": "<p><br/>From the moment your milk leaves your hands to the moment it returns home, you'll receive text updates at each stage. No guesswork—just peace of mind, delivered straight to your phone. <br/></p>"
+          }
+        },
+        "image_AkKWrq": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "One Chamber",
+            "text": "<p><br/>Your milk is processed in its own dedicated freeze-drying chamber—never mixed, never shared. This ensures purity, safety, and complete peace of mind. Because your baby deserves <em>only</em> your milk</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_P4yL64",
+        "image_m7jjzm",
+        "image_AkKWrq"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 0,
+        "margin-bottom": 40
+      }
+    },
+    "separator_BiGCmi": {
+      "type": "separator",
+      "settings": {
+        "heading": "",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "product_recommendations_EPccBR": {
+      "type": "product-recommendations",
+      "name": "t:sections.product-recommendations.presets.name",
+      "settings": {
+        "heading": "",
+        "disable_on_mobile": false,
+        "products_to_show": 2,
+        "number_of_column_desktop": 3,
+        "make_products_full_width": true,
+        "show_secondary_image_on_hover": true,
+        "number_of_column_mobile": 1.1,
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_vendor": true,
+        "show_product_rating": true,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "benefits_video_igqriJ": {
+      "type": "benefits-video",
+      "blocks": {
+        "video_WpYmf8": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/Untitled design (18).mp4",
+            "text": ""
+          }
+        },
+        "video_TiamQr": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/The Milk Fairy (2).MP4",
+            "text": ""
+          }
+        },
+        "video_RQ9FWK": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/0504 (2)(22) (1).mov",
+            "text": ""
+          }
+        },
+        "video_Qjc7WM": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/Untitled design (17).mp4",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_WpYmf8",
+        "video_TiamQr",
+        "video_RQ9FWK",
+        "video_Qjc7WM"
+      ],
+      "name": "t:sections.benefits-video.name",
+      "settings": {
+        "heading": "",
+        "video_button": false,
+        "text_alignment": "center",
+        "text_style": "body",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "17365694325a6ca34f": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_PQ3Vh3": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_PQ3Vh3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1751342671fb058839": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_Pj9TQG": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_Pj9TQG"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "1749696413e5d52c47",
+    "main",
+    "collapsible_menu_DQidbh",
+    "features_banner_wiKkaQ",
+    "separator_BiGCmi",
+    "product_recommendations_EPccBR",
+    "benefits_video_igqriJ",
+    "17365694325a6ca34f",
+    "1751342671fb058839"
+  ]
+}

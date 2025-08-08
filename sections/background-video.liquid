@@ -1,0 +1,98 @@
+{{ 'section-shoppable-video.css' | asset_url | stylesheet_tag }}
+
+{% assign background_rgb = section.settings['color-overlay'] | color_to_rgb %}
+{% assign text_rgb = section.settings['color-body-text'] | color_to_rgb %}
+{% assign heading_rgb = section.settings['color-body-heading'] | color_to_rgb %}
+
+<style>
+  section[id="shopify-section-{{ section.id }}"]{
+      {% if section.settings.margin-top %}
+          --section-gap-top: {{ section.settings.margin-top }}px;
+      {% endif %}
+
+      {% if section.settings.margin-bottom %}
+          --section-gap-bottom: {{ section.settings.margin-bottom }}px;
+      {% endif %}
+      {% if background_rgb != 'rgba(0, 0, 0, 0.0)' %}
+        --color-overlay-rgb: {{ section.settings.color-overlay | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+          --color-overlay-opacity: {{ section.settings.color-overlay-opacity | divided_by: 100.0 }};
+      {% endif %}
+
+      .headline__title{
+        {% if heading_rgb != 'rgba(0, 0, 0, 0.0)' %}
+          --color-custom-text: {{ section.settings.color-body-heading }};
+          {% endif %}
+      }
+  }
+
+  [data-section-id="{{ section.id }}"]
+  {
+      {% if section.settings.full-width-enabled %}
+          --border-radius: 0;
+      {% endif %}
+
+      {% if section.settings.original_ratio == 'fixed_height' or section.settings.video_url and section.settings.video_hosted == nil %}
+          --section-height: {{ section.settings.mobile_fixed_height }}px;
+          --section-height-desk: {{ section.settings.desktop_fixed_height }}px;
+      {% endif %}
+
+      .hero__img--placeholder{
+          object-position: {{ section.settings.cover_image.presentation.focal_point }};
+      }
+  }
+
+  [data-section-id="{{ section.id }}"] .hero--video-background {
+    {% if text_rgb != 'rgba(0, 0, 0, 0.0)' %}
+      --color-custom-text: {{ section.settings.color-body-text }};
+    {% endif %}
+  }
+
+  {%- for block in section.blocks -%}
+  [data-block-id="{{ block.id }}"]
+  {
+      --font-headline-scale-desk: {{ block.settings.size_heading | divided_by: 100.0 }};
+      --font-headline-scale: {{ block.settings.size_heading_mobile | divided_by: 100.0 }};
+  }
+  {%- endfor -%}
+</style>
+
+{% if section.settings['full-width-enabled'] %}
+  {% assign width_line = 'hero__wrapper--full' %}
+{% else %}
+  {% assign width_line = 'hero__wrapper' %}
+{% endif %}
+
+<script src="{{ 'low-power-video.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'video-controls.js' | asset_url }}" defer="defer"></script>
+
+<low-power-video>
+  <div class="{{ width_line }} section-background-video" data-section-id="{{ section.id }}">
+    <div>
+      {% render 'headline', title: section.settings.heading %}
+      <div
+        data-section-id="{{ section.id }}"
+        class="background-video {% if section.settings.original_ratio == 'original_ratio' %} background-video--og-ratio {% endif %}"
+      >
+        {% render 'hero',
+          type: 'blocks',
+          desktop_text_horizontal_position: section.settings.desktop_text_horizontal_position,
+          desktop_text_vertical_position: 'center',
+          mobile_text_horizontal_position: section.settings.mobile_text_horizontal_position,
+          mobile_text_vertical_position: 'center',
+          desktop_image: section.settings.cover_image,
+          mobile_video: section.settings.mobile_video_hosted,
+          video: section.settings.video_hosted,
+          video_url: section.settings.video_url,
+          placeholder: 'detailed-apparel-1',
+          blocks: section.blocks,
+          link_only_on_button: false,
+          video_controls: section.settings.video_controls,
+          autoplay: section.settings.autoplay,
+          play_pause_button: true
+        %}
+      </div>
+    </div>
+  </div>
+</low-power-video>
+
+{{ 'section-video.css' | asset_url | stylesheet_tag }}

@@ -1,0 +1,297 @@
+{% comment %}
+  The 2AM Reality - Problem Agitation Section
+  Makes the pain visceral and relatable
+{% endcomment %}
+
+<style>
+  .warmmy-problem {
+    padding: 80px 0;
+    background: #fff;
+    position: relative;
+  }
+  
+  .warmmy-problem-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .warmmy-problem-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .warmmy-problem-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: #191004;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .warmmy-problem-subtitle {
+    font-size: 18px;
+    color: #3d2522;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .warmmy-story {
+    background: linear-gradient(135deg, #f8f8f8 0%, #fff 100%);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .warmmy-story::before {
+    content: '"';
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    font-size: 120px;
+    color: rgba(245,178,185,0.2);
+    font-family: Georgia, serif;
+  }
+  
+  .warmmy-story-text {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #191004;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  
+  .warmmy-story-text strong {
+    color: #f5b2b9;
+    font-style: normal;
+  }
+  
+  .warmmy-story-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .warmmy-story-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .warmmy-story-author-info {
+    flex: 1;
+  }
+  
+  .warmmy-story-name {
+    font-weight: 600;
+    color: #191004;
+    margin-bottom: 2px;
+  }
+  
+  .warmmy-story-role {
+    font-size: 14px;
+    color: #717171;
+  }
+  
+  .warmmy-problems-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .warmmy-problem-card {
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .warmmy-problem-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  
+  .warmmy-problem-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245,178,185,0.1);
+    border-radius: 50%;
+  }
+  
+  .warmmy-problem-icon svg {
+    width: 30px;
+    height: 30px;
+    fill: #f5b2b9;
+  }
+  
+  .warmmy-problem-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191004;
+    margin-bottom: 10px;
+  }
+  
+  .warmmy-problem-card-text {
+    font-size: 14px;
+    color: #3d2522;
+    line-height: 1.5;
+  }
+  
+  .warmmy-problem-cta {
+    text-align: center;
+    padding: 40px;
+    background: #fff7e2;
+    border-radius: 20px;
+  }
+  
+  .warmmy-problem-cta-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #191004;
+    margin-bottom: 15px;
+  }
+  
+  .warmmy-problem-cta-text {
+    font-size: 16px;
+    color: #3d2522;
+    margin-bottom: 25px;
+  }
+  
+  .warmmy-problem-button {
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .warmmy-problem-button:hover {
+    background: #f5b2b9;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    .warmmy-problem {
+      padding: 60px 0;
+    }
+    
+    .warmmy-problem-title {
+      font-size: 32px;
+    }
+    
+    .warmmy-story {
+      padding: 30px 20px;
+    }
+    
+    .warmmy-story-text {
+      font-size: 18px;
+    }
+    
+    .warmmy-problems-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+</style>
+
+<section class="warmmy-problem">
+  <div class="warmmy-problem-container">
+    <div class="warmmy-problem-header">
+      <h2 class="warmmy-problem-title">Every Night, The Same Battle</h2>
+      <p class="warmmy-problem-subtitle">
+        You're not alone. 87% of new mums struggle with night feeds. 
+        The exhaustion, the crying, the guilt... we get it.
+      </p>
+    </div>
+    
+    <div class="warmmy-story">
+      <p class="warmmy-story-text">
+        "It's 2:47am. My baby is screaming. I stumble to the kitchen, trying to warm milk while she gets more upset. 
+        <strong>By the time it's ready, we're both in tears.</strong> I tried everything - bottle warmers that take 
+        forever, microwaves that create hot spots, even the hot water method that never gets it right. 
+        I just wanted to feed my baby without waking the entire house."
+      </p>
+      <div class="warmmy-story-author">
+        <img src="{{ 'customer-sarah.jpg' | asset_url }}" alt="Sarah" class="warmmy-story-avatar">
+        <div class="warmmy-story-author-info">
+          <div class="warmmy-story-name">Sarah Mitchell</div>
+          <div class="warmmy-story-role">Mum of 2, Melbourne</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="warmmy-problems-grid">
+      <div class="warmmy-problem-card">
+        <div class="warmmy-problem-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          </svg>
+        </div>
+        <h3 class="warmmy-problem-card-title">Traditional Warmers</h3>
+        <p class="warmmy-problem-card-text">
+          5-7 minutes of crying while you wait. Not portable. Needs constant cleaning.
+        </p>
+      </div>
+      
+      <div class="warmmy-problem-card">
+        <div class="warmmy-problem-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          </svg>
+        </div>
+        <h3 class="warmmy-problem-card-title">Microwave Method</h3>
+        <p class="warmmy-problem-card-text">
+          Dangerous hot spots. Destroys nutrients. Never the right temperature.
+        </p>
+      </div>
+      
+      <div class="warmmy-problem-card">
+        <div class="warmmy-problem-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          </svg>
+        </div>
+        <h3 class="warmmy-problem-card-title">Hot Water Bath</h3>
+        <p class="warmmy-problem-card-text">
+          Takes 10+ minutes. Messy. Impossible when you're out. Still crying baby.
+        </p>
+      </div>
+    </div>
+    
+    <div class="warmmy-problem-cta">
+      <h3 class="warmmy-problem-cta-title">There's a Better Way</h3>
+      <p class="warmmy-problem-cta-text">
+        What if you could warm milk in 60 seconds, silently, anywhere, at the perfect temperature every time?
+      </p>
+      <a href="#solution" class="warmmy-problem-button">Show Me How</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Magic Warmmy Problem",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Magic Warmmy Problem"
+    }
+  ]
+}
+{% endschema %}

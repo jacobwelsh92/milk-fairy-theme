@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "page-footer",
+      "blocks": {
+        "menu_g8gLjt": {
+          "type": "menu",
+          "settings": {
+            "heading_links": "",
+            "links": "footer"
+          }
+        },
+        "text_JtUjig": {
+          "type": "text",
+          "settings": {
+            "heading_text": "",
+            "text": "<p>We acknowledge the Wathaurong people of the Kulin Nation as the Traditional Owners of the land on which we work. We pay respect to their Elders, past, present, and emerging, and to all Aboriginal and Torres Strait Islander peoples.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "menu_g8gLjt",
+        "text_JtUjig"
+      ],
+      "settings": {
+        "show-social-media-icons": true,
+        "show-language-selector": true,
+        "show-country_region_selector": true,
+        "enable_follow_on_shop": true,
+        "show-payments-icons": true,
+        "show-copyright": true,
+        "text": "Copyright © 2025 The Milk Fairy.",
+        "big-logo": "shopify://shop_images/The-Milk-Fairy-LogoType-Dark-1080.png",
+        "big-logo-width": 27,
+        "margin-top": 4,
+        "margin-bottom": 36
+      }
+    },
+    "17422504720dc8327d": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "17422504720dc8327d"
+  ]
+}

@@ -1,0 +1,547 @@
+/**
+ * The Milk Fairy - Mobile Enhancements & Conversion Optimization CSS
+ * Optimized for one-handed use by nursing mothers
+ */
+
+/* ============================================
+   MOBILE PADDING FIXES
+   ============================================ */
+@media screen and (max-width: 768px) {
+  /* Reduce excessive padding on mobile */
+  .section-padding,
+  .wt-section,
+  section[class*="section"] {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  
+  .container,
+  .page-width {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Hero section specific */
+  .hero-section,
+  .rich-text-section:first-child {
+    padding-top: 30px !important;
+  }
+
+  /* Make CTAs bigger and more tappable */
+  .button,
+  .btn,
+  a[class*="button"] {
+    min-height: 54px !important;
+    font-size: 16px !important;
+    padding: 16px 24px !important;
+    font-weight: 600 !important;
+  }
+
+  /* Hide secondary products on mobile to reduce decision paralysis */
+  .featured-collection .product-grid > *:nth-child(n+3) {
+    display: none;
+  }
+
+  /* Improve form inputs for one-handed use */
+  input[type="email"],
+  input[type="text"],
+  input[type="tel"] {
+    height: 50px !important;
+    font-size: 16px !important; /* Prevents zoom on iOS */
+    padding: 12px !important;
+  }
+}
+
+/* ============================================
+   EXIT INTENT POPUP
+   ============================================ */
+#exit-intent-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999999;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#exit-intent-popup.active {
+  display: flex;
+  opacity: 1;
+}
+
+.popup-content {
+  background: white;
+  max-width: 750px;
+  width: 95%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 20px;
+  position: relative;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.popup-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  background: #f5b2b9;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  transition: transform 0.2s ease;
+  z-index: 1;
+}
+
+.popup-close:hover {
+  transform: scale(1.1);
+}
+
+.popup-body {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.popup-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto 15px;
+  display: block;
+  border-radius: 10px;
+}
+
+.popup-discount {
+  display: inline-block;
+  background: #f5b2b9;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.popup-title {
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+  color: #191004;
+  line-height: 1.1;
+}
+
+.popup-subtitle {
+  font-size: 14px;
+  color: #3d2522;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.popup-form {
+  margin-bottom: 15px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup-email-input {
+  width: 100%;
+  height: 42px;
+  padding: 10px 18px;
+  border: 2px solid #fff7e2;
+  border-radius: 21px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  transition: border-color 0.3s ease;
+}
+
+.popup-email-input:focus {
+  outline: none;
+  border-color: #f5b2b9;
+}
+
+.popup-submit {
+  width: 100%;
+  height: 46px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.popup-submit:hover {
+  background: #f5b2b9;
+}
+
+.popup-disclaimer {
+  font-size: 12px;
+  color: #717171;
+  margin-top: 15px;
+}
+
+/* Mobile adjustments for popup */
+@media screen and (max-width: 768px) {
+  .popup-content {
+    width: 95%;
+    border-radius: 15px;
+  }
+  
+  .popup-body {
+    padding: 30px 20px;
+  }
+  
+  .popup-title {
+    font-size: 24px;
+  }
+}
+
+/* ============================================
+   URGENCY TIMER
+   ============================================ */
+.urgency-timer {
+  background: #fff7e2;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #191004;
+  border-bottom: 2px solid #f5b2b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timer-icon {
+  font-size: 20px;
+  animation: shake 2s infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+}
+
+.timer-countdown {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f5b2b9;
+  font-family: monospace;
+  min-width: 80px;
+}
+
+/* ============================================
+   MOBILE STICKY CTA
+   ============================================ */
+.mobile-sticky-cta {
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  z-index: 99999;
+  transition: bottom 0.3s ease;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-sticky-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+}
+
+.mobile-sticky-cta.active {
+  bottom: 0;
+}
+
+.sticky-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.was-price {
+  text-decoration: line-through;
+  color: #717171;
+  font-size: 14px;
+}
+
+.now-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f5b2b9;
+}
+
+.sticky-add-cart {
+  flex: 1;
+  height: 54px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 27px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  animation: pulse 2s infinite;
+}
+
+/* ============================================
+   SOCIAL PROOF NOTIFICATIONS
+   ============================================ */
+.social-proof-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  max-width: 320px;
+  z-index: 9999;
+  transform: translateX(-400px);
+  transition: transform 0.5s ease;
+}
+
+.social-proof-notification.active {
+  transform: translateX(0);
+}
+
+.social-proof-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-proof-icon {
+  font-size: 30px;
+}
+
+.social-proof-text {
+  flex: 1;
+}
+
+.social-proof-text strong {
+  display: block;
+  font-size: 14px;
+  color: #191004;
+  margin-bottom: 2px;
+}
+
+.social-proof-text span {
+  font-size: 12px;
+  color: #717171;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .social-proof-notification {
+    left: 10px;
+    right: 10px;
+    max-width: none;
+    bottom: 80px; /* Above sticky CTA */
+  }
+}
+
+/* ============================================
+   CART SUCCESS MESSAGE
+   ============================================ */
+.cart-success-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 999999;
+  animation: fadeInOut 3s ease;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+  20% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  80% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+}
+
+/* ============================================
+   TRUST BADGES
+   ============================================ */
+.trust-badges-strip {
+  background: #fff7e2;
+  padding: 10px 0;
+  border-top: 1px solid #f5b2b9;
+  border-bottom: 1px solid #f5b2b9;
+}
+
+.trust-badges-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+.trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #191004;
+}
+
+.trust-badge svg {
+  width: 20px;
+  height: 20px;
+  fill: #f5b2b9;
+}
+
+@media screen and (max-width: 768px) {
+  .trust-badges-container {
+    gap: 15px;
+    font-size: 12px;
+  }
+  
+  .trust-badge svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* ============================================
+   PRODUCT GRID CENTERING (2 Products)
+   ============================================ */
+.featured-collection .product-grid,
+.collection-list .product-grid,
+section[id*="featured_collection"] .product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* When only 2 products, center them nicely */
+.featured-collection .product-grid > *:nth-child(3),
+.collection-list .product-grid > *:nth-child(3) {
+  display: none !important;
+}
+
+/* Limit width of products when only 2 */
+.featured-collection .product-grid:has(:nth-child(2)):not(:has(:nth-child(3))) {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Make products slightly larger when only 2 */
+.featured-collection .product-grid:has(:nth-child(2)):not(:has(:nth-child(3))) > * {
+  flex: 0 1 380px;
+  max-width: 380px;
+}
+
+/* Mobile: Stack products nicely */
+@media screen and (max-width: 768px) {
+  .featured-collection .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .featured-collection .product-grid > * {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+/* ============================================
+   HERO CTA IMPROVEMENTS
+   ============================================ */
+.hero-cta-primary {
+  background: #000000 !important;
+  color: white !important;
+  font-size: 18px !important;
+  padding: 18px 40px !important;
+  border-radius: 30px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  transition: all 0.3s ease !important;
+  display: inline-block !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.hero-cta-primary:hover {
+  background: #f5b2b9 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 30px rgba(245, 178, 185, 0.3) !important;
+}
+
+.hero-cta-primary::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.hero-cta-primary:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Body class when popup is active */
+body.popup-active {
+  overflow: hidden;
+}

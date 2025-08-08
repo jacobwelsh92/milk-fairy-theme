@@ -1,0 +1,402 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_fBLPVb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3My7GL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Storage Reccomendations",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_NfrLbX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Freeze-dried breast milk is not sterile, so it must be handled and stored carefully according to established safety guidelines. Improper handling can introduce harmful bacteria such as <em>Cronobacter</em>, which may pose serious health risks. </p><h4>(This information is based on guidance for the safe storage of both breast milk and powdered infant formula.)</h4>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3My7GL",
+        "text_NfrLbX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "right",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "separator_URKtJC": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "heading": "(This information is based on guidance for the safe storage of both breast milk and powdered infant formula.)",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_i8MAWw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6LREim": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Welcome to the world of The Milk Fairy",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_BX7437": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Where magic and breast milk unite! </p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6LREim",
+        "text_BX7437"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 52,
+        "margin-bottom": 56
+      }
+    },
+    "rich_text_jDUzRz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Hx9Kx4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rehydrating Your Powder",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_tKxYyy": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Keep bottles covered if the milk won’t be used straight away.</li><li>Always cover bottles of prepared milk if they are not being used straight away</li><li>If the milk is made with warm water, use it within one hour and discard any left after that time</li><li>If prepared with cold or room temperature water and the baby has not fed from it, store the bottle in the fridge for up to 24 hours and discard any unused milk after that</li><li>Use rehydrated breast milk within two hours of preparation and within one hour of starting a feed, as it can spoil if left at room temperature</li><li>If rehydrated milk is not used within two hours, place it in the fridge straight away and use it within 24 hours</li><li>Do not refrigerate or store milk once the baby has started feeding, and discard any milk left after a feed</li><li>Do not freeze rehydrated breast milk</li><li>Make sure bottles are thoroughly cleaned and sterilised before each use</li></ul>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hx9Kx4",
+        "text_tKxYyy"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_banner_zU4iRz": {
+      "type": "image-banner",
+      "blocks": {
+        "subheading_aKxELf": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_qaVB9V": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_YQEj9b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_gRwJi4": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "disable_on_mobile": false,
+            "button_link": "/",
+            "second_button_select": "primary",
+            "second_button_label": "Button label",
+            "second_disable_on_mobile": false,
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aKxELf",
+        "heading_qaVB9V",
+        "text_YQEj9b",
+        "button_gRwJi4"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/3_035537ca-19cc-4311-a0bf-997680e1689d.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_wxEhPM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pVmDCN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Using Your Breast Milk\nPowder in Foods",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_YiHBgq": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Store sealed pouches in a cool, dry indoor place and avoid keeping them in cars, garages, or outdoors.</li><li>Keep the pouch sealed tightly and in a cool, dry spot after opening</li><li>Discard any unused powder from single-use pouches after five days</li><li>Discard any unused powder from multi-use pouches after thirty days</li><li>Throw away the entire pouch if any moisture gets inside</li><li>Keep the scoop clean and dry, and store it outside the pouch between uses</li><li>Do not use the powder if the expiry date on the label has passed</li></ul>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pVmDCN",
+        "text_YiHBgq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "rich_text_DpVbAR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AdmfJx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Making a Bottle",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_h8w6tx": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><ol><li>Add water to the sterilised bottle first<br/></li><li>Open the pouch and pour the powder into the bottle, or use a clean, dry scoop if using part of the pouch.<br/></li><li>Seal the bottle and gently swirl to mix. If there are clumps, warm the bottle under running warm water and swirl again. If necessary, give it a gentle shake. Use slightly warmer water if needed, but be cautious not to make it too hot. To cool it quickly, run the capped bottle under cool water or place it in an ice bath. Don’t let the water touch the bottle or nipple.<br/><br/><strong>Always check the milk temperature by placing a few drops on your wrist. It should feel comfortably warm, not hot.<br/></strong></li></ol>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AdmfJx",
+        "text_h8w6tx"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "right",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "collapsible_menu_94Prkb": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_x3h9U6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "My breast milk powder is clumping when I try to reconstitute",
+            "content": "<p>Clumping is normal when reconstituting breast milk powder, and it usually happens because the powder absorbs moisture quickly. To help it dissolve better, start by adding a small amount of room temperature water to rehydrate the powder. Always add the water first, then the powder, and gently swirl before shaking. Ensure you're using the correct ratio of water to powder and that your scoop and bottle are clean and dry. If clumping continues, try adding the powder in small amounts at a time, rather than all at once, to help it mix more smoothly.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_PRxnCX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What temprature water should I be reconstituting with?",
+            "content": "<p>It's recommended to use cooled, boiled or sterilised & filtered water that is around body temperature (approximately 37°C). Avoid using boiling hot water, as it can damage the nutrients and antibodies in the breast milk.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_wN6TNx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What water should I use to rehydrate my milk?",
+            "content": "<p>Always use sterilised, filtered water. Do not use tap water that has not been boiled, as this can contaminate your breast milk.<br/><br/>Some Bubs that are very used to Mama's milk, may be a bit picky with what water you use, if baby is refusing, sometimes it can be as simple as trying a different brand of water.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_QNGMie": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What temperature is best?",
+            "content": "<p>It depends on the age of your baby, but body temperature is the temperature of breast milk (around 37c)<br/><br/>Sometimes, with higher fat-content breast milk, using warmer water (around 40c - not hotter) can help dissolve & rehydrate the freeze-dried fats.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_36JbPm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Should I shake my breast milk to combine?",
+            "content": "<p>Avoid shaking, as this can cause clumping & create air pockets, which may give baby some discomfort. <br/><br/>Gently swirling is best, and vigorously is absolutely fine if needed.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_x3h9U6",
+        "collapsible_tab_PRxnCX",
+        "collapsible_tab_wN6TNx",
+        "collapsible_tab_QNGMie",
+        "collapsible_tab_36JbPm"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "benefits_video_mtTEkp": {
+      "type": "benefits-video",
+      "blocks": {
+        "video_TwdHdW": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/v14044g50000cvplidvog65tesli70d0.MP4",
+            "text": ""
+          }
+        },
+        "video_b6Ttg8": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/8674622539d04d0a8a26410be544f9e0.MP4",
+            "text": ""
+          }
+        },
+        "video_MtQTEC": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify://files/videos/14dcde49413b49249949e6fa82934fbf.MP4",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_TwdHdW",
+        "video_b6Ttg8",
+        "video_MtQTEC"
+      ],
+      "name": "t:sections.benefits-video.name",
+      "settings": {
+        "heading": "",
+        "video_button": false,
+        "text_alignment": "center",
+        "text_style": "body",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "rich_text_fBLPVb",
+    "separator_URKtJC",
+    "main",
+    "rich_text_i8MAWw",
+    "rich_text_jDUzRz",
+    "image_banner_zU4iRz",
+    "rich_text_wxEhPM",
+    "rich_text_DpVbAR",
+    "collapsible_menu_94Prkb",
+    "benefits_video_mtTEkp"
+  ]
+}

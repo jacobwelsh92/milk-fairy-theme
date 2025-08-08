@@ -1,0 +1,129 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "separator_wMnJzy": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "heading": "The Benefits",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_33MRn3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eMCV3p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Returns Policy",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_XiJzhF": {
+          "type": "text",
+          "settings": {
+            "text": "<h3></h3><p>We’re mothers too, and we get that plans can change.<br/><br/><strong>Change of Mind:</strong><br/><br/>If you’ve had a change of mind, we accept returns on <strong>unopened</strong> physical products within 30 days of delivery. Return shipping costs will be your responsibility, and refunds will be processed <strong>minus original shipping costs</strong>.<br/><br/><strong>Damaged or Faulty Products:<br/><br/></strong>If the item you purchased is faulty, you can choose to receive a <strong>full refund </strong>or <strong>exchange</strong>.<br/><br/><strong>Exchanges:</strong><br/><br/>We only offer <strong>exchanges for defective or faulty products</strong>. Exchanges due to change of mind are not accepted. <br/><br/><br/><strong>Damaged or Faulty Shipping Kits:</strong><br/><br/>If your shipping kit arrives damaged or faulty, please email us within 2 days of receiving it. We’ll cover return shipping and send you a replacement free of charge. <br/><br/><strong>Please Note:</strong></p><ul><li>All sale items, discounted products, and limited-time offers are <strong>final sale</strong> and not eligible for return or exchange.<br/></li><li>For any return or exchange, products must be unused, in original packaging, and in resellable condition.</li></ul><p>Please contact us using the form below. If a returns label is necessary, we will help endeavour to arrange this.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eMCV3p",
+        "text_XiJzhF"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "contact_form_rbcxWB": {
+      "type": "contact-form",
+      "blocks": {
+        "heading_dygzU7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Returns",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_epgxkJ": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Please allow 24 hours for a customer  care team member to get back to you.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_bH8nyG": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dygzU7",
+        "paragraph_epgxkJ",
+        "email_form_bH8nyG"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "featured_navigation_8aE9b6": {
+      "type": "featured-navigation",
+      "settings": {
+        "heading": "",
+        "menu": "main-menu",
+        "desktop_placement": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "separator_wMnJzy",
+    "rich_text_33MRn3",
+    "contact_form_rbcxWB",
+    "featured_navigation_8aE9b6"
+  ]
+}

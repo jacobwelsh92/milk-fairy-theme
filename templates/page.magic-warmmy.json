@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero": {
+      "type": "magic-warmmy-hero",
+      "settings": {}
+    },
+    "problem-story": {
+      "type": "magic-warmmy-problem",
+      "settings": {}
+    },
+    "solution-demo": {
+      "type": "magic-warmmy-solution",
+      "settings": {}
+    },
+    "social-proof": {
+      "type": "magic-warmmy-testimonials",
+      "settings": {}
+    },
+    "comparison": {
+      "type": "magic-warmmy-comparison",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "problem-story",
+    "solution-demo",
+    "social-proof",
+    "comparison"
+  ]
+}

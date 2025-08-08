@@ -1,0 +1,14 @@
+{% comment %}
+  Urgency Timer Snippet
+  Creates FOMO with countdown timer
+  Usage: {% render 'urgency-timer', minutes: 60, text: 'Offer ends in:' %}
+{% endcomment %}
+
+{% assign timer_minutes = minutes | default: 60 %}
+{% assign timer_text = text | default: 'Limited time offer ends in:' %}
+
+<div class="urgency-timer" data-minutes="{{ timer_minutes }}">
+  <span class="timer-icon">⏰</span>
+  <span class="timer-text">{{ timer_text }}</span>
+  <span class="timer-countdown" id="countdown-{{ section.id }}">59:47</span>
+</div>

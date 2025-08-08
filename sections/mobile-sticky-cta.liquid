@@ -1,0 +1,73 @@
+{% comment %}
+  Mobile Sticky CTA
+  Fixed bottom bar on mobile for easy one-handed purchasing
+{% endcomment %}
+
+{% if section.settings.enable_sticky_cta %}
+  {% assign product = all_products[section.settings.featured_product] %}
+  
+  {% if product != blank %}
+    <div class="mobile-sticky-cta" data-product="{{ product.selected_or_first_available_variant.id }}">
+      <div class="sticky-price">
+        {% if product.compare_at_price > product.price %}
+          <span class="was-price">{{ product.compare_at_price | money }}</span>
+        {% endif %}
+        <span class="now-price">{{ product.price | money }}</span>
+      </div>
+      
+      <button class="sticky-add-cart" type="button">
+        <span class="sticky-cta-text">
+          {% if product.compare_at_price > product.price %}
+            {{ section.settings.cta_text_sale | default: 'Add to Cart - Save $30' }}
+          {% else %}
+            {{ section.settings.cta_text | default: 'Add to Cart' }}
+          {% endif %}
+        </span>
+      </button>
+    </div>
+  {% endif %}
+{% endif %}
+
+<style>
+  /* Mobile sticky CTA styles are in mobile-enhancements.css */
+</style>
+
+{% schema %}
+{
+  "name": "Mobile Sticky CTA",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_sticky_cta",
+      "label": "Enable Mobile Sticky CTA",
+      "default": true
+    },
+    {
+      "type": "product",
+      "id": "featured_product",
+      "label": "Featured Product",
+      "info": "Select the product to feature in sticky CTA"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Add to Cart"
+    },
+    {
+      "type": "text",
+      "id": "cta_text_sale",
+      "label": "CTA Button Text (On Sale)",
+      "default": "Add to Cart - Save $30"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mobile Sticky CTA",
+      "settings": {
+        "enable_sticky_cta": true
+      }
+    }
+  ]
+}
+{% endschema %}

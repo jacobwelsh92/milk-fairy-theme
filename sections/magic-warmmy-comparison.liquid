@@ -1,0 +1,433 @@
+{% comment %}
+  Comparison Table - Show Why Magic Warmmy Wins
+  Visual comparison that makes the choice obvious
+{% endcomment %}
+
+<style>
+  .warmmy-comparison {
+    padding: 80px 0;
+    background: linear-gradient(180deg, #fff 0%, #f8f8f8 100%);
+  }
+  
+  .warmmy-comparison-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .warmmy-comparison-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .warmmy-comparison-badge {
+    display: inline-block;
+    background: #f5b2b9;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .warmmy-comparison-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: #191004;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .warmmy-comparison-subtitle {
+    font-size: 18px;
+    color: #3d2522;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .warmmy-comparison-table {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+  }
+  
+  .warmmy-comparison-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .warmmy-comparison-row:last-child {
+    border-bottom: none;
+  }
+  
+  .warmmy-comparison-header-row {
+    background: #191004;
+    color: white;
+  }
+  
+  .warmmy-comparison-cell {
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .warmmy-comparison-feature {
+    justify-content: flex-start;
+    font-weight: 600;
+    color: #191004;
+    padding-left: 30px;
+  }
+  
+  .warmmy-comparison-header-cell {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .warmmy-comparison-winner {
+    background: linear-gradient(135deg, #fff7e2 0%, #fff 100%);
+    position: relative;
+  }
+  
+  .warmmy-comparison-winner::before {
+    content: 'BEST CHOICE';
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f5b2b9;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .warmmy-comparison-check {
+    width: 24px;
+    height: 24px;
+    fill: #4CAF50;
+  }
+  
+  .warmmy-comparison-cross {
+    width: 24px;
+    height: 24px;
+    fill: #ff4444;
+  }
+  
+  .warmmy-comparison-value {
+    font-size: 14px;
+    color: #3d2522;
+    font-weight: 500;
+  }
+  
+  .warmmy-comparison-winner .warmmy-comparison-value {
+    color: #191004;
+    font-weight: 600;
+  }
+  
+  .warmmy-comparison-cta {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .warmmy-comparison-button {
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .warmmy-comparison-button:hover {
+    background: #f5b2b9;
+    transform: translateY(-2px);
+  }
+  
+  .warmmy-comparison-guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #3d2522;
+  }
+  
+  .warmmy-comparison-guarantee svg {
+    width: 20px;
+    height: 20px;
+    fill: #4CAF50;
+  }
+  
+  @media (max-width: 768px) {
+    .warmmy-comparison {
+      padding: 60px 0;
+    }
+    
+    .warmmy-comparison-title {
+      font-size: 28px;
+    }
+    
+    .warmmy-comparison-row {
+      grid-template-columns: 2fr 1fr 1fr;
+    }
+    
+    .warmmy-comparison-row > div:nth-child(3) {
+      display: none;
+    }
+    
+    .warmmy-comparison-cell {
+      padding: 15px 10px;
+      font-size: 12px;
+    }
+    
+    .warmmy-comparison-feature {
+      padding-left: 15px;
+      font-size: 13px;
+    }
+  }
+</style>
+
+<section class="warmmy-comparison">
+  <div class="warmmy-comparison-container">
+    <div class="warmmy-comparison-header">
+      <span class="warmmy-comparison-badge">The Clear Winner</span>
+      <h2 class="warmmy-comparison-title">Why Mums Choose Magic Warmmy</h2>
+      <p class="warmmy-comparison-subtitle">
+        See how we stack up against traditional methods. The choice becomes obvious.
+      </p>
+    </div>
+    
+    <div class="warmmy-comparison-table">
+      <div class="warmmy-comparison-row warmmy-comparison-header-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-header-cell">
+          Feature
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-header-cell warmmy-comparison-winner">
+          Magic Warmmy
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-header-cell">
+          Traditional Warmer
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-header-cell">
+          Microwave
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Time to warm
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <span class="warmmy-comparison-value">60 seconds</span>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <span class="warmmy-comparison-value">5-7 minutes</span>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <span class="warmmy-comparison-value">30-60 seconds</span>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Silent operation
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Perfect temperature
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          No hot spots
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Portable
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Works in car
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Preserves nutrients
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Easy to clean
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-cross" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          </svg>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <svg class="warmmy-comparison-check" viewBox="0 0 24 24">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="warmmy-comparison-row">
+        <div class="warmmy-comparison-cell warmmy-comparison-feature">
+          Price
+        </div>
+        <div class="warmmy-comparison-cell warmmy-comparison-winner">
+          <span class="warmmy-comparison-value">$199</span>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <span class="warmmy-comparison-value">$80-150</span>
+        </div>
+        <div class="warmmy-comparison-cell">
+          <span class="warmmy-comparison-value">$0</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="warmmy-comparison-cta">
+      <a href="#" class="warmmy-comparison-button" onclick="addToCart()">
+        Get The Only Warmer You'll Ever Need
+      </a>
+      <div class="warmmy-comparison-guarantee">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
+        </svg>
+        <span>30-Night Money Back Guarantee • Free Express Shipping</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Magic Warmmy Comparison",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Magic Warmmy Comparison"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,130 @@
+{% comment %}
+  Exit Intent Popup Section
+  Shows when user attempts to leave, offering discount for email capture
+{% endcomment %}
+
+<div id="exit-intent-popup" class="exit-popup-overlay">
+  <div class="popup-content">
+    <button class="popup-close" aria-label="Close popup">&times;</button>
+    
+    <div class="popup-body">
+      {% if section.settings.popup_image != blank %}
+        <img 
+          src="{{ section.settings.popup_image | image_url: width: 600 }}" 
+          alt="{{ section.settings.popup_image.alt | default: 'Special Offer' }}"
+          class="popup-image"
+          loading="lazy"
+        >
+      {% else %}
+        {% comment %} Default Magic Warmmy image {% endcomment %}
+        <div class="popup-image-placeholder">
+          <!-- Using your uploaded image -->
+          <img src="{{ 'IMG_3163.webp' | asset_url }}" alt="Magic Warmmy Portable Warmer with Freeze-Dried Milk" class="popup-image">
+        </div>
+      {% endif %}
+      
+      <div class="popup-discount">{{ section.settings.discount_text | default: '$20 OFF' }}</div>
+      
+      <h2 class="popup-title">{{ section.settings.popup_title | default: "Wait! Don't Leave Empty-Handed" }}</h2>
+      
+      <p class="popup-subtitle">
+        {{ section.settings.popup_subtitle | default: "Get $20 off your Magic Warmmy + Free Express Shipping when you join our VIP list" }}
+      </p>
+      
+      <form class="popup-form" action="/contact#contact_form" method="post" id="exit-popup-form" data-ajax-submit="true">
+        <input type="hidden" name="form_type" value="customer">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="contact[tags]" value="newsletter,exit-popup,discount,milk-warmer-30off">
+        <input type="hidden" name="contact[accepts_marketing]" value="true">
+        
+        <input 
+          type="email" 
+          name="contact[email]" 
+          class="popup-email-input" 
+          placeholder="{{ section.settings.email_placeholder | default: 'Enter your email' }}"
+          required
+          aria-label="Email address"
+        >
+        
+        <button type="submit" class="popup-submit">
+          {{ section.settings.button_text | default: 'GET MY $20 OFF' }}
+        </button>
+      </form>
+      
+      <p class="popup-disclaimer">
+        {{ section.settings.disclaimer_text | default: "No spam, ever. Unsubscribe anytime." }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Ensure styles are loaded */
+  @import url('{{ "mobile-enhancements.css" | asset_url }}');
+</style>
+
+<script>
+  /* Ensure conversion optimizer is loaded */
+  if (!window.conversionOptimizerLoaded) {
+    const script = document.createElement('script');
+    script.src = '{{ "conversion-optimizer.js" | asset_url }}';
+    script.defer = true;
+    document.head.appendChild(script);
+    window.conversionOptimizerLoaded = true;
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Exit Intent Popup",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "popup_image",
+      "label": "Popup Image",
+      "info": "Recommended: Product image or hero shot"
+    },
+    {
+      "type": "text",
+      "id": "discount_text",
+      "label": "Discount Badge Text",
+      "default": "$30 OFF"
+    },
+    {
+      "type": "text",
+      "id": "popup_title",
+      "label": "Popup Title",
+      "default": "Wait! Don't Leave Empty-Handed"
+    },
+    {
+      "type": "textarea",
+      "id": "popup_subtitle",
+      "label": "Popup Subtitle",
+      "default": "Get $30 off your Magic Warmmy + Free Express Shipping when you join our VIP list"
+    },
+    {
+      "type": "text",
+      "id": "email_placeholder",
+      "label": "Email Input Placeholder",
+      "default": "Enter your email"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Submit Button Text",
+      "default": "GET MY $30 OFF"
+    },
+    {
+      "type": "text",
+      "id": "disclaimer_text",
+      "label": "Disclaimer Text",
+      "default": "No spam, ever. Unsubscribe anytime."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Exit Intent Popup"
+    }
+  ]
+}
+{% endschema %}

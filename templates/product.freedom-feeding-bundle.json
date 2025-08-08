@@ -1,0 +1,324 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "settings": {
+        "full-width-enabled": true,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 8,
+        "margin-bottom": 8
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "brand": "PRESALE - Shipping end of may",
+            "size_text": 210,
+            "size_text_mobile": 200
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_included": true,
+            "size_text": 130,
+            "size_text_mobile": 120
+          }
+        },
+        "separator_RrKQ4A": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_swatch_names": "",
+            "variant_picture_swatch_names": "",
+            "dropdown_swatch_names": "",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 16
+          }
+        },
+        "inventory_JWQnXt": {
+          "type": "inventory",
+          "settings": {
+            "inventory_threshold": 42,
+            "show_inventory_quantity": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "show_qty_selector": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_open": true,
+            "icon": "none"
+          }
+        },
+        "bulletpoints_taXYMY": {
+          "type": "bulletpoints",
+          "disabled": true,
+          "settings": {
+            "metafield": "",
+            "default_text": "Standard Shipping included.\nSeamless Integration: Works perfectly with our freeze-dried milk sachets.\nAustralian-Made Quality: Designed and tested for local mums' needs."
+          }
+        },
+        "share_buttons_Ct9CXx": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+            "heading": "Share",
+            "social_facebook_link": true,
+            "social_twitter_link": true,
+            "social_pinterest_link": true,
+            "mail_link": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
+        "price",
+        "separator_RrKQ4A",
+        "variant_picker",
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
+        "inventory_JWQnXt",
+        "buy_buttons",
+        "description",
+        "bulletpoints_taXYMY",
+        "share_buttons_Ct9CXx"
+      ],
+      "settings": {
+        "full-width-enabled": true,
+        "desktop-media-size": "normal",
+        "desktop-layout": "carousel-vertical",
+        "desktop-image-ratio": "square",
+        "enable_video_looping": true,
+        "enable-image-zoom": true,
+        "mobile-image": "small",
+        "margin-top": 12,
+        "margin-bottom": 0
+      }
+    },
+    "collapsible_menu_FUEDVw": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_ywcCBd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What's included in the bundle?",
+            "content": "<ul><li><strong>Portable Milk Warmer & Thermos</strong> <br/>Designed for mums on the move, this compact warmer lets you heat sterilised water or breast milk in just 1–3 minutes. Set your ideal temperature on the built-in display and enjoy warm feeds anywhere — from long-haul flights to park picnics, late-night feeds to weekend getaways.</li><li></li><li><strong>2L Freeze-Drying Kit</strong> – Send us your frozen breast milk using our pre-paid courier kit. We’ll gently freeze-dry it in your own private chamber, preserving nutrients and sealing it into shelf-stable sachets — perfect for travel, daycare, emergencies, or extended holidays. No freezer needed. Just grab, go, and feed with confidence — wherever life takes you.</li></ul>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_RYyaaL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features & Benefits",
+            "content": "<ul><li><strong>Rapid Heating:</strong> Warms water or milk in just 1-3 minutes.</li><li><strong>Thermos Function:</strong> Keeps water warm for up to 24 hours.</li><li><strong>500ml Capacity: </strong>For all day feeding.</li><li> <strong>Precise Temperature Control:</strong> Built-in thermometer with real-time temperature display.</li><li><strong>Designed to Protect: </strong>Sensitive temperature control to protect the nutrients in breast milk.</li><li> <strong>Dual Use Design:</strong> Perfect for fresh breast milk & freeze-dried breast milk.</li><li><strong> Sterilisation Mode:</strong> Inbuilt 65°C pasteurisation function for ultimate safety and peace of mind when needed.</li><li> <strong>Portable & Travel-Friendly:</strong> Lightweight and compact—fits easily into your nappy bag.</li><li> <strong>Child Lock Safety:</strong> Prevents accidental operation for added security.</li><li> <strong>Long Battery Life:</strong> Up to 12 hours of use on a single charge with USB-C fast charging. Fully charge within 2 hours.</li><li> <strong>Antibacterial Materials:</strong> Made from non-toxic silicone, and stainless steel.</li><li> <strong>1-Year Warranty:</strong> For extra peace of mind.</li></ul>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_EM3d9p": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Using Freeze-dried Breast Milk",
+            "content": "<p>Up to 87% of breast milk is water — our freeze-drying process simply removes it, essentially creating your own breast milk formula. When you’re ready to feed, just add your sterilised warm water using the Milk Warmer & Thermos to instantly reconstitute your milk, making feeding on-the-go effortless and safe.</p>",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_ywcCBd",
+        "collapsible_tab_RYyaaL",
+        "collapsible_tab_EM3d9p"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "video_reels_4gMnxy": {
+      "type": "video-reels",
+      "blocks": {
+        "product_jUKJLE": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_3873.MOV",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_FayVRk": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/14dcde49413b49249949e6fa82934fbf.MP4",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        },
+        "product_4CRpKM": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_6798.mov",
+            "featured_product": "breast-milk-freeze-drying-service-shipping-kit-send-my-milk"
+          }
+        },
+        "product_qXQzCL": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/IMG_6780.MOV",
+            "featured_product": "milk-fairy-portable-milk-warmer-bottle"
+          }
+        }
+      },
+      "block_order": [
+        "product_jUKJLE",
+        "product_FayVRk",
+        "product_4CRpKM",
+        "product_qXQzCL"
+      ],
+      "name": "t:sections.shoppable-video-reels.name",
+      "settings": {
+        "heading": "",
+        "quick-add-enabled": false,
+        "hide-brand-name": false,
+        "video_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "separator_BiGCmi": {
+      "type": "separator",
+      "settings": {
+        "heading": "",
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "17365694325a6ca34f": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_PQ3Vh3": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_PQ3Vh3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "newsletter_pEcrBa": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_mLFMeW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_d8VNPK": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_gTPAyG": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mLFMeW",
+        "paragraph_d8VNPK",
+        "email_form_gTPAyG"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "collapsible_menu_FUEDVw",
+    "video_reels_4gMnxy",
+    "separator_BiGCmi",
+    "17365694325a6ca34f",
+    "newsletter_pEcrBa"
+  ]
+}
